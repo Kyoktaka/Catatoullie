@@ -1,0 +1,13 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.pde text eol=lf
+*.java text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary

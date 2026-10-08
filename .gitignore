@@ -1,0 +1,4 @@
+# Generated local output and personal progress
+.build*/
+tmp/
+data/savegame.json
