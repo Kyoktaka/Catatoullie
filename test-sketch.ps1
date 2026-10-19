@@ -22,8 +22,18 @@ try {
     & $javaExe "-Dcompose.application.resources.dir=$resourceRoot" -cp $appJars processing.mode.java.Commander "--sketch=$PSScriptRoot" "--output=$buildDir" --build
     if ($LASTEXITCODE -ne 0) { throw 'Processing compilation failed.' }
     $testCp = "$buildDir;$appJars;$VideoLibrary\*"
-    & $javacExe -cp $testCp -d $buildDir 'tests\SketchSmokeTest.java'
+    & $javacExe -encoding UTF-8 -cp $testCp -d $buildDir 'tests\SketchSmokeTest.java' 'tests\KitchenSmokeTest.java' 'tests\MealSmokeTest.java' 'tests\IntroSubtitleTest.java' 'tests\MealAudioTest.java' 'tests\OptimizationTest.java'
     if ($LASTEXITCODE -ne 0) { throw 'Smoke-test compilation failed.' }
     & $javaExe '-Djava.awt.headless=true' -cp $testCp SketchSmokeTest
     if ($LASTEXITCODE -ne 0) { throw 'Sketch smoke tests failed.' }
+    & $javaExe '-Djava.awt.headless=true' -cp $testCp KitchenSmokeTest
+    if ($LASTEXITCODE -ne 0) { throw 'Kitchen smoke tests failed.' }
+    & $javaExe '-Djava.awt.headless=true' -cp $testCp MealSmokeTest
+    if ($LASTEXITCODE -ne 0) { throw 'Meal smoke tests failed.' }
+    & $javaExe '-Djava.awt.headless=true' -cp $testCp IntroSubtitleTest
+    if ($LASTEXITCODE -ne 0) { throw 'Intro subtitle tests failed.' }
+    & $javaExe '-Djava.awt.headless=true' -cp $testCp MealAudioTest
+    if ($LASTEXITCODE -ne 0) { throw 'Meal audio tests failed.' }
+    & $javaExe '-Djava.awt.headless=true' -cp $testCp OptimizationTest
+    if ($LASTEXITCODE -ne 0) { throw 'Optimization regression tests failed.' }
 } finally { Pop-Location }

@@ -2,6 +2,9 @@
 // Flood only the connected border, so white markings inside outlines remain white.
 PImage sprite(String path){
   PImage src=asset(path);if(src==null)return null;
+  src.loadPixels();
+  // Keep existing alpha and white subject details in supplied transparent PNGs.
+  if((src.pixels[0]>>>24)==0&&(src.pixels[src.width-1]>>>24)==0)return trimSprite(src);
   // This necklace has a closed white hole inside its ring. Its supplied artwork
   // contains no white subject details, so expose the fur through that hole too.
   if(path.equals("ACCESSORIES/tag.png")){

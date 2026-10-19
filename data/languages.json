@@ -1,0 +1,3058 @@
+{
+  "PLAY": [
+    "MAGLARO",
+    "JUGAR",
+    "开始游戏",
+    "GIOCA",
+    "JOUER",
+    "ИГРАТЬ"
+  ],
+  "CUSTOMIZATION": [
+    "AYUSIN ANG PUSA",
+    "PERSONALIZACIÓN",
+    "装扮",
+    "PERSONALIZZA",
+    "PERSONNALISATION",
+    "ОБЛИК"
+  ],
+  "OPTIONS": [
+    "MGA OPSYON",
+    "OPCIONES",
+    "设置",
+    "OPZIONI",
+    "OPTIONS",
+    "НАСТРОЙКИ"
+  ],
+  "EXIT": [
+    "LUMABAS",
+    "SALIR",
+    "退出",
+    "ESCI",
+    "QUITTER",
+    "ВЫХОД"
+  ],
+  "ACHIEVEMENTS": [
+    "MGA TAGUMPAY",
+    "LOGROS",
+    "成就",
+    "TRAGUARDI",
+    "SUCCÈS",
+    "ДОСТИЖЕНИЯ"
+  ],
+  "BACK TO MENU": [
+    "BALIK SA MENU",
+    "VOLVER AL MENÚ",
+    "返回菜单",
+    "TORNA AL MENU",
+    "RETOUR AU MENU",
+    "В МЕНЮ"
+  ],
+  "CATS": [
+    "MGA PUSA",
+    "GATOS",
+    "猫咪",
+    "GATTI",
+    "CHATS",
+    "КОШКИ"
+  ],
+  "MAPS": [
+    "MGA MAPA",
+    "MAPAS",
+    "地图",
+    "MAPPE",
+    "CARTES",
+    "КАРТЫ"
+  ],
+  "HATS": [
+    "MGA SOMBRERO",
+    "SOMBREROS",
+    "帽子",
+    "CAPPELLI",
+    "CHAPEAUX",
+    "ШЛЯПЫ"
+  ],
+  "ACCESSORIES": [
+    "MGA AKSESORYA",
+    "ACCESORIOS",
+    "配饰",
+    "ACCESSORI",
+    "ACCESSOIRES",
+    "АКСЕССУАРЫ"
+  ],
+  "YOUR CAT": [
+    "ANG PUSA MO",
+    "TU GATO",
+    "你的猫咪",
+    "IL TUO GATTO",
+    "VOTRE CHAT",
+    "ВАША КОШКА"
+  ],
+  "DRAG TO TURN": [
+    "I-DRAG PARA UMIKOT",
+    "ARRASTRA PARA GIRAR",
+    "拖动旋转",
+    "TRASCINA PER RUOTARE",
+    "GLISSER POUR TOURNER",
+    "ТЯНИТЕ ДЛЯ ПОВОРОТА"
+  ],
+  "Clear a trash can to unlock a hat and accessory.": [
+    "Tapusin ang isang basurahan para sa bagong sombrero at aksesorya.",
+    "Completa un cubo para ganar un sombrero y un accesorio.",
+    "完成一个垃圾桶关卡，解锁帽子和配饰。",
+    "Completa un bidone per sbloccare un cappello e un accessorio.",
+    "Terminez une poubelle pour gagner un chapeau et un accessoire.",
+    "Пройдите бак, чтобы получить шляпу и аксессуар."
+  ],
+  "Your choices save automatically.": [
+    "Kusang nase-save ang mga pinili mo.",
+    "Tus elecciones se guardan solas.",
+    "选择会自动保存。",
+    "Le scelte si salvano automaticamente.",
+    "Vos choix sont enregistrés automatiquement.",
+    "Выбор сохраняется автоматически."
+  ],
+  "MUSIC": [
+    "MUSIKA",
+    "MÚSICA",
+    "音乐",
+    "MUSICA",
+    "MUSIQUE",
+    "МУЗЫКА"
+  ],
+  "VFX": [
+    "MGA EPEKTO",
+    "EFECTOS",
+    "特效",
+    "EFFETTI",
+    "EFFETS",
+    "ЭФФЕКТЫ"
+  ],
+  "SENSITIVITY": [
+    "SENSITIBIDAD",
+    "SENSIBILIDAD",
+    "灵敏度",
+    "SENSIBILITÀ",
+    "SENSIBILITÉ",
+    "ЧУВСТВИТЕЛЬНОСТЬ"
+  ],
+  "LANGUAGE": [
+    "WIKA",
+    "IDIOMA",
+    "语言",
+    "LINGUA",
+    "LANGUE",
+    "ЯЗЫК"
+  ],
+  "Background melody volume": [
+    "Lakas ng musikang pang-background",
+    "Volumen de la melodía",
+    "背景音乐音量",
+    "Volume della melodia",
+    "Volume de la mélodie",
+    "Громкость мелодии"
+  ],
+  "Ambient effects intensity": [
+    "Tindi ng mga biswal na epekto",
+    "Intensidad de los efectos",
+    "环境特效强度",
+    "Intensità degli effetti",
+    "Intensité des effets",
+    "Интенсивность эффектов"
+  ],
+  "Paw pickup reach": [
+    "Abot ng pagkuha ng paa",
+    "Alcance de la pata",
+    "猫爪抓取范围",
+    "Portata della zampa",
+    "Portée de la patte",
+    "Дальность захвата лапой"
+  ],
+  "RESTORE DEFAULTS": [
+    "IBALIK ANG DEFAULT",
+    "RESTABLECER",
+    "恢复默认",
+    "RIPRISTINA",
+    "RÉINITIALISER",
+    "СБРОСИТЬ"
+  ],
+  "Changes apply immediately and save automatically.": [
+    "Agad na inilalapat at sine-save ang mga pagbabago.",
+    "Los cambios se aplican y guardan al instante.",
+    "更改立即生效并自动保存。",
+    "Le modifiche si applicano e salvano subito.",
+    "Les changements sont appliqués et enregistrés aussitôt.",
+    "Изменения сразу применяются и сохраняются."
+  ],
+  "A LITTLE CAT. A BIG APPETITE.": [
+    "MUNTING PUSA. MALAKING GANA.",
+    "UN GATITO. UN GRAN APETITO.",
+    "小小猫咪，大大胃口。",
+    "UN GATTINO. UN GRANDE APPETITO.",
+    "UN PETIT CHAT. UN GRAND APPÉTIT.",
+    "МАЛЕНЬКАЯ КОШКА. БОЛЬШОЙ АППЕТИТ."
+  ],
+  "YOUR NEIGHBORHOOD": [
+    "ANG KAPITBAHAYAN MO",
+    "TU VECINDARIO",
+    "你的街区",
+    "IL TUO QUARTIERE",
+    "VOTRE QUARTIER",
+    "ВАШ РАЙОН"
+  ],
+  "LEVEL 1": [
+    "ANTAS 1",
+    "NIVEL 1",
+    "第1关",
+    "LIVELLO 1",
+    "NIVEAU 1",
+    "УРОВЕНЬ 1"
+  ],
+  "LEVEL {0}": [
+    "ANTAS {0}",
+    "NIVEL {0}",
+    "第{0}关",
+    "LIVELLO {0}",
+    "NIVEAU {0}",
+    "УРОВЕНЬ {0}"
+  ],
+  "The first shift": [
+    "Ang unang gawain",
+    "El primer turno",
+    "第一次行动",
+    "Il primo turno",
+    "Le premier service",
+    "Первая смена"
+  ],
+  "AVAILABLE": [
+    "BUKAS NA",
+    "DISPONIBLE",
+    "可游玩",
+    "DISPONIBILE",
+    "DISPONIBLE",
+    "ДОСТУПНО"
+  ],
+  "Coming later": [
+    "Darating pa",
+    "Próximamente",
+    "即将推出",
+    "In arrivo",
+    "À venir",
+    "СКОРО"
+  ],
+  "{0} / 5 trash cans searched in Level 1": [
+    "{0} / 5 basurahan ang natapos sa Antas 1",
+    "{0} / 5 cubos registrados en el nivel 1",
+    "第1关已搜索 {0} / 5 个垃圾桶",
+    "{0} / 5 bidoni esplorati nel livello 1",
+    "{0} / 5 poubelles fouillées au niveau 1",
+    "Обыскано баков на уровне 1: {0} / 5"
+  ],
+  "FIRST FINDS": [
+    "UNANG NAKUHA",
+    "PRIMEROS HALLAZGOS",
+    "初次收获",
+    "PRIME SCOPERTE",
+    "PREMIÈRES TROUVAILLES",
+    "ПЕРВЫЕ НАХОДКИ"
+  ],
+  "NEIGHBORHOOD SCAVENGER": [
+    "TAGAHANAP SA KAPITBAHAYAN",
+    "EXPLORADOR DEL BARRIO",
+    "街区寻宝家",
+    "ESPLORATORE DEL QUARTIERE",
+    "EXPLORATEUR DU QUARTIER",
+    "ИСКАТЕЛЬ РАЙОНА"
+  ],
+  "QUICK PAWS": [
+    "MABILIS NA PAA",
+    "PATAS VELOCES",
+    "敏捷猫爪",
+    "ZAMPE VELOCI",
+    "PATTES RAPIDES",
+    "БЫСТРЫЕ ЛАПЫ"
+  ],
+  "Collect the ingredients from your first trash can.": [
+    "Kunin ang mga sangkap sa unang basurahan.",
+    "Recoge los ingredientes de tu primer cubo.",
+    "收集第一个垃圾桶里的食材。",
+    "Raccogli gli ingredienti dal primo bidone.",
+    "Récupérez les ingrédients de votre première poubelle.",
+    "Соберите ингредиенты из первого бака."
+  ],
+  "Collect every ingredient set in Level 1.": [
+    "Kumpletuhin ang lahat ng sangkap sa Antas 1.",
+    "Completa todas las recetas del nivel 1.",
+    "集齐第1关的所有食材。",
+    "Completa tutte le raccolte del livello 1.",
+    "Complétez toutes les collectes du niveau 1.",
+    "Соберите все наборы ингредиентов уровня 1."
+  ],
+  "Earn three stars by finishing with 80 seconds left.": [
+    "Magtapos nang may 80 segundo para sa tatlong bituin.",
+    "Termina con 80 segundos restantes para ganar tres estrellas.",
+    "剩余80秒时完成，可获得三星。",
+    "Finisci con 80 secondi rimasti per tre stelle.",
+    "Terminez avec 80 secondes restantes pour trois étoiles.",
+    "Завершите с запасом 80 секунд ради трёх звёзд."
+  ],
+  "EARNED": [
+    "NAKUHA NA",
+    "CONSEGUIDO",
+    "已获得",
+    "OTTENUTO",
+    "OBTENU",
+    "ПОЛУЧЕНО"
+  ],
+  "Keep searching. Cooking comes in Level 2.": [
+    "Maghanap pa. Sa Antas 2 ang pagluluto.",
+    "Sigue buscando. Cocinarás en el nivel 2.",
+    "继续寻找。第2关开始烹饪。",
+    "Continua a cercare. Si cucina nel livello 2.",
+    "Continuez à chercher. La cuisine arrive au niveau 2.",
+    "Продолжайте искать. Готовка будет на уровне 2."
+  ],
+  "A hungry cat. A tiny dream. One purfect meal.": [
+    "Isang gutom na pusa. Munting pangarap. Masarap na pagkain.",
+    "Un gato hambriento. Un pequeño sueño. Una comida perfecta.",
+    "一只饥饿的猫，一个小小的梦想，一顿完美大餐。",
+    "Un gatto affamato. Un piccolo sogno. Un pasto perfetto.",
+    "Un chat affamé. Un petit rêve. Un repas parfait.",
+    "Голодная кошка. Маленькая мечта. Идеальный обед."
+  ],
+  "SKIP [SPACE]": [
+    "LAKTAWAN [SPACE]",
+    "SALTAR [SPACE]",
+    "跳过 [SPACE]",
+    "SALTA [SPACE]",
+    "PASSER [SPACE]",
+    "ПРОПУСТИТЬ [SPACE]"
+  ],
+  "English video until your translation is added.": [
+    "English muna ang video hangga't wala pang salin.",
+    "Vídeo en inglés hasta que añadas la traducción.",
+    "添加翻译视频前，将播放英语视频。",
+    "Video inglese finché non aggiungi la traduzione.",
+    "Vidéo anglaise en attendant votre traduction.",
+    "Английское видео, пока не добавлен перевод."
+  ],
+  "LEVEL 1  /  FIND THE PURFECT MEAL": [
+    "ANTAS 1 / HANAPIN ANG MASARAP NA PAGKAIN",
+    "NIVEL 1 / ENCUENTRA LA COMIDA PERFECTA",
+    "第1关 / 寻找完美大餐",
+    "LIVELLO 1 / TROVA IL PASTO PERFETTO",
+    "NIVEAU 1 / TROUVEZ LE REPAS PARFAIT",
+    "УРОВЕНЬ 1 / НАЙДИТЕ ИДЕАЛЬНЫЙ ОБЕД"
+  ],
+  "{0} / 5 ingredient sets collected": [
+    "{0} / 5 pangkat ng sangkap ang nakuha",
+    "{0} / 5 conjuntos recogidos",
+    "已收集 {0} / 5 组食材",
+    "{0} / 5 raccolte completate",
+    "{0} / 5 ensembles récupérés",
+    "Собрано наборов: {0} / 5"
+  ],
+  "MAIN MENU": [
+    "PANGUNAHING MENU",
+    "MENÚ PRINCIPAL",
+    "主菜单",
+    "MENU PRINCIPALE",
+    "MENU PRINCIPAL",
+    "ГЛАВНОЕ МЕНЮ"
+  ],
+  "Choose a can under the lights. Each search lasts two minutes.": [
+    "Pumili ng basurahan sa ilalim ng ilaw. Dalawang minuto bawat hanap.",
+    "Elige un cubo bajo las luces. Tienes dos minutos por búsqueda.",
+    "选择灯下的垃圾桶。每次搜索限时两分钟。",
+    "Scegli un bidone sotto le luci. Ogni ricerca dura due minuti.",
+    "Choisissez une poubelle sous les lumières. Deux minutes par recherche.",
+    "Выберите бак под фонарём. На поиск даётся две минуты."
+  ],
+  "MEOW MEOW MEOW...": [
+    "MIYAW MIYAW MIYAW...",
+    "MIAU MIAU MIAU...",
+    "喵喵喵……",
+    "MIAO MIAO MIAO...",
+    "MIAOU MIAOU MIAOU...",
+    "МЯУ МЯУ МЯУ..."
+  ],
+  "Jumping into the next trash can": [
+    "Tumatalon sa susunod na basurahan",
+    "Saltando al siguiente cubo",
+    "跳进下一个垃圾桶",
+    "Salto nel prossimo bidone",
+    "Saut vers la prochaine poubelle",
+    "Прыжок в следующий бак"
+  ],
+  "YOU FOUND A RECIPE!": [
+    "MAY NAKITA KANG RESIPE!",
+    "¡ENCONTRASTE UNA RECETA!",
+    "发现食谱！",
+    "HAI TROVATO UNA RICETTA!",
+    "VOUS AVEZ TROUVÉ UNE RECETTE !",
+    "ВЫ НАШЛИ РЕЦЕПТ!"
+  ],
+  "Spaghetti Recipe": [
+    "Resipe ng Spaghetti",
+    "Receta de espaguetis",
+    "意大利面食谱",
+    "Ricetta degli spaghetti",
+    "Recette de spaghettis",
+    "Рецепт спагетти"
+  ],
+  "Fried-Chicken Recipe": [
+    "Resipe ng Pritong Manok",
+    "Receta de pollo frito",
+    "炸鸡食谱",
+    "Ricetta del pollo fritto",
+    "Recette de poulet frit",
+    "Рецепт жареной курицы"
+  ],
+  "Lompia Recipe": [
+    "Resipe ng Lompia",
+    "Receta de lumpia",
+    "春卷食谱",
+    "Ricetta dei lumpia",
+    "Recette de lumpia",
+    "Рецепт лумпии"
+  ],
+  "Peach Mango Pie Recipe": [
+    "Resipe ng Peach Mango Pie",
+    "Receta de tarta de melocotón y mango",
+    "桃子芒果派食谱",
+    "Ricetta della torta pesca e mango",
+    "Recette de tarte pêche-mangue",
+    "Рецепт пирога с персиком и манго"
+  ],
+  "Burger Recipe": [
+    "Resipe ng Burger",
+    "Receta de hamburguesa",
+    "汉堡食谱",
+    "Ricetta dell'hamburger",
+    "Recette de burger",
+    "Рецепт бургера"
+  ],
+  "OPEN FOLDER": [
+    "BUKSAN ANG FOLDER",
+    "ABRIR CARPETA",
+    "打开文件夹",
+    "APRI CARTELLA",
+    "OUVRIR LE DOSSIER",
+    "ОТКРЫТЬ ПАПКУ"
+  ],
+  "BACK": [
+    "BUMALIK",
+    "VOLVER",
+    "返回",
+    "INDIETRO",
+    "RETOUR",
+    "НАЗАД"
+  ],
+  "Opening your recipe folder...": [
+    "Binubuksan ang folder ng resipe...",
+    "Abriendo tu carpeta de recetas...",
+    "正在打开食谱文件夹……",
+    "Apertura della cartella ricette...",
+    "Ouverture du dossier de recettes...",
+    "Открываем папку рецептов..."
+  ],
+  "TWO NOTES TO READ": [
+    "DALAWANG TALANG BABASAHIN",
+    "DOS NOTAS PARA LEER",
+    "阅读两张便笺",
+    "DUE NOTE DA LEGGERE",
+    "DEUX NOTES À LIRE",
+    "ПРОЧИТАЙТЕ ДВЕ ЗАПИСКИ"
+  ],
+  "Click each paper to reveal its contents.": [
+    "I-click ang bawat papel para mabasa.",
+    "Haz clic en cada hoja para leerla.",
+    "点击每张纸查看内容。",
+    "Clicca su ogni foglio per leggerlo.",
+    "Cliquez sur chaque feuille pour la lire.",
+    "Нажмите на каждый лист, чтобы прочитать."
+  ],
+  "RECIPE": [
+    "RESIPE",
+    "RECETA",
+    "食谱",
+    "RICETTA",
+    "RECETTE",
+    "РЕЦЕПТ"
+  ],
+  "COLLECTION": [
+    "PAGKOLEKTA",
+    "RECOLECCIÓN",
+    "收集",
+    "RACCOLTA",
+    "COLLECTE",
+    "СБОР"
+  ],
+  "CLICK TO READ": [
+    "I-CLICK PARA BASAHIN",
+    "CLIC PARA LEER",
+    "点击阅读",
+    "CLICCA PER LEGGERE",
+    "CLIQUEZ POUR LIRE",
+    "НАЖМИТЕ ДЛЯ ЧТЕНИЯ"
+  ],
+  "START SEARCH - 2:00": [
+    "SIMULAN - 2:00",
+    "BUSCAR - 2:00",
+    "开始搜索 - 2:00",
+    "CERCA - 2:00",
+    "CHERCHER - 2:00",
+    "НАЧАТЬ ПОИСК - 2:00"
+  ],
+  "The timer starts when you begin searching.": [
+    "Magsisimula ang oras kapag nagsimula kang maghanap.",
+    "El tiempo empieza cuando inicias la búsqueda.",
+    "开始搜索时才会计时。",
+    "Il tempo parte quando inizi a cercare.",
+    "Le temps démarre au début de la recherche.",
+    "Таймер запускается с началом поиска."
+  ],
+  "FIND THESE": [
+    "HANAPIN ANG MGA ITO",
+    "BUSCA ESTO",
+    "寻找这些",
+    "CERCA QUESTI",
+    "À TROUVER",
+    "НАЙДИТЕ ЭТО"
+  ],
+  "COLLECTION NOTES": [
+    "TALA SA PAGKOLEKTA",
+    "NOTAS DE RECOLECCIÓN",
+    "收集说明",
+    "NOTE DI RACCOLTA",
+    "NOTES DE COLLECTE",
+    "ПРАВИЛА СБОРА"
+  ],
+  "Drag either paw into the pile.": [
+    "I-drag ang alinmang paa sa bunton.",
+    "Arrastra una pata al montón.",
+    "将任意猫爪拖到物品堆上。",
+    "Trascina una zampa sul mucchio.",
+    "Glissez une patte sur le tas.",
+    "Перетащите лапу к куче."
+  ],
+  "Take only the TOP item.": [
+    "Ang NASA IBABAW lang ang kunin.",
+    "Toma solo el objeto de ARRIBA.",
+    "只能取走最上面的物品。",
+    "Prendi solo l'oggetto IN CIMA.",
+    "Prenez seulement l'objet AU SOMMET.",
+    "Берите только ВЕРХНИЙ предмет."
+  ],
+  "Follow FIND from top to bottom.": [
+    "Sundin ang HANAPIN mula sa itaas.",
+    "Sigue BUSCAR de arriba abajo.",
+    "按清单从上到下收集。",
+    "Segui CERCA dall'alto in basso.",
+    "Suivez À TROUVER de haut en bas.",
+    "Следуйте списку сверху вниз."
+  ],
+  "Set later ingredients aside.": [
+    "Itabi muna ang ibang sangkap.",
+    "Aparta los ingredientes posteriores.",
+    "将稍后需要的食材放在一旁。",
+    "Metti da parte gli altri ingredienti.",
+    "Mettez les autres ingrédients de côté.",
+    "Откладывайте следующие ингредиенты."
+  ],
+  "Collect them when their turn comes.": [
+    "Kunin sila kapag sila na ang kasunod.",
+    "Recógelos cuando les toque.",
+    "轮到它们时再收集。",
+    "Raccoglili quando arriva il loro turno.",
+    "Récupérez-les quand vient leur tour.",
+    "Соберите их, когда придёт их очередь."
+  ],
+  "Last in, first out: LIFO.": [
+    "Huling pumasok, unang lalabas: LIFO.",
+    "Último en entrar, primero en salir: LIFO.",
+    "后进先出：LIFO。",
+    "Ultimo entrato, primo uscito: LIFO.",
+    "Dernier entré, premier sorti : LIFO.",
+    "Последним пришёл, первым ушёл: LIFO."
+  ],
+  "You have TWO MINUTES.": [
+    "May DALAWANG MINUTO ka.",
+    "Tienes DOS MINUTOS.",
+    "你有两分钟。",
+    "Hai DUE MINUTI.",
+    "Vous avez DEUX MINUTES.",
+    "У вас ДВЕ МИНУТЫ."
+  ],
+  "Ingredients stay uncooked.": [
+    "Hindi pa luto ang mga sangkap.",
+    "Los ingredientes siguen sin cocinar.",
+    "食材保持未烹饪状态。",
+    "Gli ingredienti restano crudi.",
+    "Les ingrédients restent crus.",
+    "Ингредиенты остаются сырыми."
+  ],
+  "Cooking is for Level 2.": [
+    "Sa Antas 2 ang pagluluto.",
+    "Cocinarás en el nivel 2.",
+    "第2关才开始烹饪。",
+    "Si cucina nel livello 2.",
+    "La cuisine arrive au niveau 2.",
+    "Готовка будет на уровне 2."
+  ],
+  "FIND": [
+    "HANAPIN",
+    "BUSCAR",
+    "寻找",
+    "CERCA",
+    "À TROUVER",
+    "НАЙТИ"
+  ],
+  "NEXT": [
+    "SUSUNOD",
+    "SIGUIENTE",
+    "下一步",
+    "AVANTI",
+    "SUIVANT",
+    "ДАЛЕЕ"
+  ],
+  "{0} / {1} collected": [
+    "{0} / {1} nakuha",
+    "{0} / {1} recogidos",
+    "已收集 {0} / {1}",
+    "{0} / {1} raccolti",
+    "{0} / {1} récupérés",
+    "Собрано: {0} / {1}"
+  ],
+  "Still uncooked": [
+    "Hindi pa luto",
+    "Sin cocinar",
+    "尚未烹饪",
+    "Ancora crudi",
+    "Encore crus",
+    "Ещё сырые"
+  ],
+  "COLLECT": [
+    "KOLEKTAHIN",
+    "RECOGER",
+    "收集",
+    "RACCOGLI",
+    "RÉCUPÉRER",
+    "СОБРАТЬ"
+  ],
+  "Follow the order on FIND": [
+    "Sundin ang ayos sa HANAPIN",
+    "Sigue el orden de BUSCAR",
+    "按寻找清单的顺序",
+    "Segui l'ordine di CERCA",
+    "Suivez l'ordre À TROUVER",
+    "Следуйте порядку списка"
+  ],
+  "Correct next ingredient": [
+    "Tamang kasunod na sangkap",
+    "Ingrediente siguiente correcto",
+    "正确的下一个食材",
+    "Ingrediente successivo corretto",
+    "Bon ingrédient suivant",
+    "Верный следующий ингредиент"
+  ],
+  "Drop the highlighted FIND item": [
+    "Ilagay ang naka-highlight sa HANAPIN",
+    "Suelta el objeto resaltado",
+    "放入清单中高亮的食材",
+    "Posa l'ingrediente evidenziato",
+    "Déposez l'ingrédient surligné",
+    "Положите выделенный ингредиент"
+  ],
+  "Your finds go in this bag": [
+    "Dito ilalagay ang mga nakuha",
+    "Tus hallazgos van en esta bolsa",
+    "将找到的食材放入袋中",
+    "Qui vanno le tue scoperte",
+    "Vos trouvailles vont dans ce sac",
+    "Складывайте находки в эту сумку"
+  ],
+  "Collected for later": [
+    "Nakuha para sa susunod",
+    "Guardado para después",
+    "收集后备用",
+    "Raccolti per dopo",
+    "Gardés pour plus tard",
+    "Собрано на потом"
+  ],
+  "INGREDIENTS COLLECTED!": [
+    "NAKUHA NA ANG MGA SANGKAP!",
+    "¡INGREDIENTES RECOGIDOS!",
+    "食材收集完成！",
+    "INGREDIENTI RACCOLTI!",
+    "INGRÉDIENTS RÉCUPÉRÉS !",
+    "ИНГРЕДИЕНТЫ СОБРАНЫ!"
+  ],
+  "NEW WARDROBE FINDS": [
+    "BAGONG KASUOTAN",
+    "NUEVAS PRENDAS",
+    "新装扮奖励",
+    "NUOVI ACCESSORI",
+    "NOUVELLES TENUES",
+    "НОВЫЕ ПРЕДМЕТЫ ОБЛИКА"
+  ],
+  "STAGE REWARDS": [
+    "GANTIMPALA SA YUGTO",
+    "RECOMPENSAS DE ETAPA",
+    "关卡奖励",
+    "PREMI DELLA TAPPA",
+    "RÉCOMPENSES D'ÉTAPE",
+    "НАГРАДЫ ЭТАПА"
+  ],
+  "NEXT TRASH": [
+    "SUSUNOD NA BASURAHAN",
+    "SIGUIENTE CUBO",
+    "下一个垃圾桶",
+    "PROSSIMO BIDONE",
+    "POUBELLE SUIVANTE",
+    "СЛЕДУЮЩИЙ БАК"
+  ],
+  "TRASH CANS": [
+    "MGA BASURAHAN",
+    "CUBOS DE BASURA",
+    "垃圾桶",
+    "BIDONI",
+    "POUBELLES",
+    "МУСОРНЫЕ БАКИ"
+  ],
+  "LEVEL 1 COMPLETE - cooking comes in Level 2": [
+    "TAPOS NA ANG ANTAS 1 - sa Antas 2 ang pagluluto",
+    "NIVEL 1 COMPLETADO - cocinarás en el nivel 2",
+    "第1关完成，第2关开始烹饪",
+    "LIVELLO 1 COMPLETO - si cucina nel livello 2",
+    "NIVEAU 1 TERMINÉ - cuisine au niveau 2",
+    "УРОВЕНЬ 1 ПРОЙДЕН — готовка на уровне 2"
+  ],
+  "TIME'S UP!": [
+    "UBOS NA ANG ORAS!",
+    "¡SE ACABÓ EL TIEMPO!",
+    "时间到！",
+    "TEMPO SCADUTO!",
+    "TEMPS ÉCOULÉ !",
+    "ВРЕМЯ ВЫШЛО!"
+  ],
+  "Your paws need another try.": [
+    "Subukan ulit ng mga paa mo.",
+    "Tus patas necesitan otro intento.",
+    "再试一次吧。",
+    "Le tue zampe devono riprovare.",
+    "Vos pattes doivent réessayer.",
+    "Попробуйте ещё раз."
+  ],
+  "A fresh search gives you two full minutes.": [
+    "May dalawang buong minuto sa bagong subok.",
+    "Un nuevo intento te da dos minutos completos.",
+    "重新搜索可获得完整的两分钟。",
+    "Un nuovo tentativo dà due minuti interi.",
+    "Un nouvel essai vous donne deux minutes.",
+    "Новая попытка даёт две полные минуты."
+  ],
+  "RETRY TRASH": [
+    "ULITIN ANG BASURAHAN",
+    "REINTENTAR CUBO",
+    "重试垃圾桶",
+    "RIPROVA BIDONE",
+    "RÉESSAYER",
+    "ПОВТОРИТЬ БАК"
+  ],
+  "TAKE A PAWS": [
+    "PAHINGA MUNA",
+    "UNA PAUSA",
+    "休息一下",
+    "PAUSA ZAMPE",
+    "PAUSE PATTES",
+    "ПЕРЕДЫШКА"
+  ],
+  "RESUME": [
+    "ITULOY",
+    "CONTINUAR",
+    "继续",
+    "RIPRENDI",
+    "REPRENDRE",
+    "ПРОДОЛЖИТЬ"
+  ],
+  "RESTART TRASH": [
+    "SIMULAN MULI",
+    "REINICIAR CUBO",
+    "重新开始",
+    "RICOMINCIA",
+    "RECOMMENCER",
+    "ЗАНОВО"
+  ],
+  "The countdown is paused.": [
+    "Nakahinto ang oras.",
+    "El tiempo está en pausa.",
+    "倒计时已暂停。",
+    "Il conto alla rovescia è in pausa.",
+    "Le compte à rebours est en pause.",
+    "Отсчёт времени приостановлен."
+  ],
+  "A PAW-SOME SEARCH": [
+    "ANG GALING MONG MAGHANAP",
+    "UNA BÚSQUEDA GENIAL",
+    "猫爪寻宝",
+    "UNA RICERCA FELINA",
+    "UNE RECHERCHE FÉLINE",
+    "КОШАЧИЙ ПОИСК"
+  ],
+  "LET'S SEARCH": [
+    "MAGHANAP NA",
+    "A BUSCAR",
+    "开始寻找",
+    "CERCHIAMO",
+    "CHERCHONS",
+    "НА ПОИСКИ"
+  ],
+  "You can release your paw after grabbing, then drag it again.": [
+    "Puwedeng bitawan ang paa at i-drag itong muli.",
+    "Puedes soltar la pata y arrastrarla de nuevo.",
+    "抓取后可以松开猫爪，再次拖动。",
+    "Puoi lasciare la zampa e trascinarla di nuovo.",
+    "Vous pouvez lâcher la patte puis la glisser à nouveau.",
+    "Можно отпустить лапу, а затем снова потянуть её."
+  ],
+  "LEVEL 1  /  {0}": [
+    "ANTAS 1 / {0}",
+    "NIVEL 1 / {0}",
+    "第1关 / {0}",
+    "LIVELLO 1 / {0}",
+    "NIVEAU 1 / {0}",
+    "УРОВЕНЬ 1 / {0}"
+  ],
+  "Pasta": [
+    "Pasta",
+    "Pasta",
+    "意大利面",
+    "Pasta",
+    "Pâtes",
+    "Макароны"
+  ],
+  "Meatballs": [
+    "Bola-bola",
+    "Albóndigas",
+    "肉丸",
+    "Polpette",
+    "Boulettes",
+    "Фрикадельки"
+  ],
+  "Hot Dogs": [
+    "Hotdog",
+    "Salchichas",
+    "香肠",
+    "Würstel",
+    "Saucisses",
+    "Сосиски"
+  ],
+  "Tomato Can": [
+    "De-latang kamatis",
+    "Tomate en lata",
+    "番茄罐头",
+    "Pomodori in scatola",
+    "Tomates en conserve",
+    "Консервированные томаты"
+  ],
+  "Milk": [
+    "Gatas",
+    "Leche",
+    "牛奶",
+    "Latte",
+    "Lait",
+    "Молоко"
+  ],
+  "Onion": [
+    "Sibuyas",
+    "Cebolla",
+    "洋葱",
+    "Cipolla",
+    "Oignon",
+    "Лук"
+  ],
+  "Garlic": [
+    "Bawang",
+    "Ajo",
+    "大蒜",
+    "Aglio",
+    "Ail",
+    "Чеснок"
+  ],
+  "Oil": [
+    "Mantika",
+    "Aceite",
+    "食用油",
+    "Olio",
+    "Huile",
+    "Масло"
+  ],
+  "Cheese": [
+    "Keso",
+    "Queso",
+    "奶酪",
+    "Formaggio",
+    "Fromage",
+    "Сыр"
+  ],
+  "Chicken": [
+    "Manok",
+    "Pollo",
+    "鸡肉",
+    "Pollo",
+    "Poulet",
+    "Курица"
+  ],
+  "Buttermilk": [
+    "Buttermilk",
+    "Suero de leche",
+    "酪乳",
+    "Latticello",
+    "Babeurre",
+    "Пахта"
+  ],
+  "All-Purpose Flour": [
+    "Harina",
+    "Harina de trigo",
+    "中筋面粉",
+    "Farina",
+    "Farine",
+    "Мука"
+  ],
+  "Cornstarch": [
+    "Gawgaw",
+    "Maicena",
+    "玉米淀粉",
+    "Amido di mais",
+    "Fécule de maïs",
+    "Кукурузный крахмал"
+  ],
+  "Salt": [
+    "Asin",
+    "Sal",
+    "盐",
+    "Sale",
+    "Sel",
+    "Соль"
+  ],
+  "Garlic Powder": [
+    "Pulbos ng bawang",
+    "Ajo en polvo",
+    "蒜粉",
+    "Aglio in polvere",
+    "Ail en poudre",
+    "Чесночный порошок"
+  ],
+  "Pepper": [
+    "Paminta",
+    "Pimienta",
+    "胡椒",
+    "Pepe",
+    "Poivre",
+    "Перец"
+  ],
+  "Ground Pork": [
+    "Giniling na baboy",
+    "Cerdo picado",
+    "猪肉末",
+    "Maiale macinato",
+    "Porc haché",
+    "Свиной фарш"
+  ],
+  "White Onion": [
+    "Puting sibuyas",
+    "Cebolla blanca",
+    "白洋葱",
+    "Cipolla bianca",
+    "Oignon blanc",
+    "Белый лук"
+  ],
+  "Carrots": [
+    "Karot",
+    "Zanahorias",
+    "胡萝卜",
+    "Carote",
+    "Carottes",
+    "Морковь"
+  ],
+  "Scallions": [
+    "Dahon ng sibuyas",
+    "Cebolletas",
+    "小葱",
+    "Cipollotti",
+    "Oignons verts",
+    "Зелёный лук"
+  ],
+  "Egg": [
+    "Itlog",
+    "Huevo",
+    "鸡蛋",
+    "Uovo",
+    "Œuf",
+    "Яйцо"
+  ],
+  "Lumpia Wrapper": [
+    "Balat ng lumpia",
+    "Masa de rollitos",
+    "春卷皮",
+    "Sfoglia per involtini",
+    "Feuille de rouleau",
+    "Тесто для роллов"
+  ],
+  "Water Bottle": [
+    "Bote ng tubig",
+    "Botella de agua",
+    "瓶装水",
+    "Bottiglia d'acqua",
+    "Bouteille d'eau",
+    "Бутылка воды"
+  ],
+  "Mangoes": [
+    "Mangga",
+    "Mangos",
+    "芒果",
+    "Manghi",
+    "Mangues",
+    "Манго"
+  ],
+  "Canned Peach": [
+    "De-latang peach",
+    "Melocotón en lata",
+    "桃子罐头",
+    "Pesche in scatola",
+    "Pêches en conserve",
+    "Консервированные персики"
+  ],
+  "Peach Syrup": [
+    "Arnibal ng peach",
+    "Almíbar de melocotón",
+    "桃子糖浆",
+    "Sciroppo di pesca",
+    "Sirop de pêche",
+    "Персиковый сироп"
+  ],
+  "Sugar": [
+    "Asukal",
+    "Azúcar",
+    "糖",
+    "Zucchero",
+    "Sucre",
+    "Сахар"
+  ],
+  "Lemon Juice": [
+    "Katas ng lemon",
+    "Zumo de limón",
+    "柠檬汁",
+    "Succo di limone",
+    "Jus de citron",
+    "Лимонный сок"
+  ],
+  "Ground Cinnamon": [
+    "Pulbos ng kanela",
+    "Canela molida",
+    "肉桂粉",
+    "Cannella macinata",
+    "Cannelle moulue",
+    "Молотая корица"
+  ],
+  "Puff Pastry": [
+    "Masa ng pie",
+    "Hojaldre",
+    "酥皮",
+    "Pasta sfoglia",
+    "Pâte feuilletée",
+    "Слоёное тесто"
+  ],
+  "Black Pepper": [
+    "Itim na paminta",
+    "Pimienta negra",
+    "黑胡椒",
+    "Pepe nero",
+    "Poivre noir",
+    "Чёрный перец"
+  ],
+  "Lettuce": [
+    "Letsugas",
+    "Lechuga",
+    "生菜",
+    "Lattuga",
+    "Laitue",
+    "Салат"
+  ],
+  "Tomato": [
+    "Kamatis",
+    "Tomate",
+    "番茄",
+    "Pomodoro",
+    "Tomate",
+    "Помидор"
+  ],
+  "Pickles": [
+    "Atsarang pipino",
+    "Pepinillos",
+    "腌黄瓜",
+    "Cetriolini",
+    "Cornichons",
+    "Маринованные огурцы"
+  ],
+  "Mayo": [
+    "Mayonesa",
+    "Mayonesa",
+    "蛋黄酱",
+    "Maionese",
+    "Mayonnaise",
+    "Майонез"
+  ],
+  "Ketchup": [
+    "Ketsap",
+    "Kétchup",
+    "番茄酱",
+    "Ketchup",
+    "Ketchup",
+    "Кетчуп"
+  ],
+  "Mustard": [
+    "Mustasa",
+    "Mostaza",
+    "芥末酱",
+    "Senape",
+    "Moutarde",
+    "Горчица"
+  ],
+  "Buns": [
+    "Tinapay",
+    "Panecillos",
+    "面包胚",
+    "Panini",
+    "Petits pains",
+    "Булочки"
+  ],
+  "Banana Peel": [
+    "Balat ng saging",
+    "Cáscara de plátano",
+    "香蕉皮",
+    "Buccia di banana",
+    "Peau de banane",
+    "Банановая кожура"
+  ],
+  "Fish Bones": [
+    "Tinik ng isda",
+    "Espinas de pescado",
+    "鱼骨",
+    "Lische di pesce",
+    "Arêtes de poisson",
+    "Рыбьи кости"
+  ],
+  "Empty Bottle": [
+    "Boteng walang laman",
+    "Botella vacía",
+    "空瓶",
+    "Bottiglia vuota",
+    "Bouteille vide",
+    "Пустая бутылка"
+  ],
+  "No hat": [
+    "Walang sumbrero",
+    "Sin sombrero",
+    "不戴帽子",
+    "Senza cappello",
+    "Sans chapeau",
+    "Без шляпы"
+  ],
+  "Straw hat": [
+    "Sombrerong dayami",
+    "Sombrero de paja",
+    "草帽",
+    "Cappello di paglia",
+    "Chapeau de paille",
+    "Соломенная шляпа"
+  ],
+  "Brown hat": [
+    "Kayumangging sumbrero",
+    "Sombrero marrón",
+    "棕色帽子",
+    "Cappello marrone",
+    "Chapeau marron",
+    "Коричневая шляпа"
+  ],
+  "Chef hat": [
+    "Sumbrero ng kusinero",
+    "Gorro de chef",
+    "厨师帽",
+    "Cappello da chef",
+    "Toque",
+    "Колпак повара"
+  ],
+  "Top hat": [
+    "Mataas na sumbrero",
+    "Chistera",
+    "礼帽",
+    "Cilindro",
+    "Haut-de-forme",
+    "Цилиндр"
+  ],
+  "Cowboy hat": [
+    "Sumbrerong koboy",
+    "Sombrero vaquero",
+    "牛仔帽",
+    "Cappello da cowboy",
+    "Chapeau de cowboy",
+    "Ковбойская шляпа"
+  ],
+  "Wizard hat": [
+    "Sumbrero ng salamangkero",
+    "Sombrero de mago",
+    "巫师帽",
+    "Cappello da mago",
+    "Chapeau de sorcier",
+    "Шляпа волшебника"
+  ],
+  "Pirate hat": [
+    "Sumbrero ng pirata",
+    "Sombrero pirata",
+    "海盗帽",
+    "Cappello da pirata",
+    "Chapeau de pirate",
+    "Пиратская шляпа"
+  ],
+  "Clown hat": [
+    "Sumbrero ng payaso",
+    "Sombrero de payaso",
+    "小丑帽",
+    "Cappello da clown",
+    "Chapeau de clown",
+    "Шляпа клоуна"
+  ],
+  "Party hat": [
+    "Sumbrerong pang-party",
+    "Gorro de fiesta",
+    "派对帽",
+    "Cappello da festa",
+    "Chapeau de fête",
+    "Праздничный колпак"
+  ],
+  "Tall chef hat": [
+    "Mataas na sumbrero ng kusinero",
+    "Gorro alto de chef",
+    "高厨师帽",
+    "Toque alta",
+    "Grande toque",
+    "Высокий колпак"
+  ],
+  "Pink crown": [
+    "Rosas na korona",
+    "Corona rosa",
+    "粉色王冠",
+    "Corona rosa",
+    "Couronne rose",
+    "Розовая корона"
+  ],
+  "Winter beanie": [
+    "Bonet",
+    "Gorro de invierno",
+    "冬季针织帽",
+    "Berretto invernale",
+    "Bonnet d'hiver",
+    "Зимняя шапка"
+  ],
+  "Sun hat": [
+    "Sumbrerong pansagip-araw",
+    "Sombrero de sol",
+    "遮阳帽",
+    "Cappello da sole",
+    "Chapeau de soleil",
+    "Панама"
+  ],
+  "Detective hat": [
+    "Sumbrero ng detektib",
+    "Sombrero de detective",
+    "侦探帽",
+    "Cappello da detective",
+    "Chapeau de détective",
+    "Шляпа детектива"
+  ],
+  "No accessory": [
+    "Walang aksesorya",
+    "Sin accesorio",
+    "无配饰",
+    "Nessun accessorio",
+    "Sans accessoire",
+    "Без аксессуара"
+  ],
+  "Headphones": [
+    "Hedpon",
+    "Auriculares",
+    "耳机",
+    "Cuffie",
+    "Casque audio",
+    "Наушники"
+  ],
+  "Tag collar": [
+    "Kwelyong may pangalan",
+    "Collar con placa",
+    "吊牌项圈",
+    "Collare con targhetta",
+    "Collier à médaille",
+    "Ошейник с жетоном"
+  ],
+  "Eyewear": [
+    "Salamin",
+    "Gafas",
+    "眼镜",
+    "Occhiali",
+    "Lunettes",
+    "Очки"
+  ],
+  "Polka dot bow": [
+    "Lasong may tuldok",
+    "Lazo de lunares",
+    "波点蝴蝶结",
+    "Fiocco a pois",
+    "Nœud à pois",
+    "Бант в горошек"
+  ],
+  "Blue bow": [
+    "Asul na laso",
+    "Lazo azul",
+    "蓝色蝴蝶结",
+    "Fiocco blu",
+    "Nœud bleu",
+    "Синий бант"
+  ],
+  "Yellow bow": [
+    "Dilaw na laso",
+    "Lazo amarillo",
+    "黄色蝴蝶结",
+    "Fiocco giallo",
+    "Nœud jaune",
+    "Жёлтый бант"
+  ],
+  "Bell collar": [
+    "Kwelyong may kampana",
+    "Collar con cascabel",
+    "铃铛项圈",
+    "Collare con campanello",
+    "Collier à clochette",
+    "Ошейник с бубенчиком"
+  ],
+  "Round glasses": [
+    "Bilog na salamin",
+    "Gafas redondas",
+    "圆框眼镜",
+    "Occhiali tondi",
+    "Lunettes rondes",
+    "Круглые очки"
+  ],
+  "Yarn ball": [
+    "Bola ng sinulid",
+    "Ovillo",
+    "毛线球",
+    "Gomitolo",
+    "Pelote",
+    "Клубок"
+  ],
+  "Satchel": [
+    "Bag",
+    "Bandolera",
+    "挎包",
+    "Borsa",
+    "Sacoche",
+    "Сумка"
+  ],
+  "Red bandana": [
+    "Pulang bandana",
+    "Pañuelo rojo",
+    "红色头巾",
+    "Bandana rossa",
+    "Bandana rouge",
+    "Красная бандана"
+  ],
+  "Green bandana": [
+    "Berdeng bandana",
+    "Pañuelo verde",
+    "绿色头巾",
+    "Bandana verde",
+    "Bandana vert",
+    "Зелёная бандана"
+  ],
+  "Anchor collar": [
+    "Kwelyong may angkla",
+    "Collar con ancla",
+    "船锚项圈",
+    "Collare con ancora",
+    "Collier à ancre",
+    "Ошейник с якорем"
+  ],
+  "Sunglasses": [
+    "Salaming pang-araw",
+    "Gafas de sol",
+    "太阳镜",
+    "Occhiali da sole",
+    "Lunettes de soleil",
+    "Солнечные очки"
+  ],
+  "Striped scarf": [
+    "Guhitang bandana",
+    "Bufanda de rayas",
+    "条纹围巾",
+    "Sciarpa a righe",
+    "Écharpe rayée",
+    "Полосатый шарф"
+  ],
+  "Fish collar": [
+    "Kwelyong may isda",
+    "Collar con pez",
+    "小鱼项圈",
+    "Collare con pesce",
+    "Collier à poisson",
+    "Ошейник с рыбкой"
+  ],
+  "Fishbone toy": [
+    "Laruang tinik",
+    "Juguete de espina",
+    "鱼骨玩具",
+    "Gioco a lisca",
+    "Jouet arête",
+    "Игрушка-косточка"
+  ],
+  "Toy mouse": [
+    "Laruang daga",
+    "Ratón de juguete",
+    "玩具老鼠",
+    "Topolino giocattolo",
+    "Souris jouet",
+    "Игрушечная мышь"
+  ],
+  "Ginger": [
+    "Kahel",
+    "Naranja",
+    "橘色",
+    "Rosso",
+    "Roux",
+    "Рыжий"
+  ],
+  "Blue": [
+    "Asul",
+    "Azul",
+    "蓝色",
+    "Blu",
+    "Bleu",
+    "Синий"
+  ],
+  "White": [
+    "Puti",
+    "Blanco",
+    "白色",
+    "Bianco",
+    "Blanc",
+    "Белый"
+  ],
+  "Black": [
+    "Itim",
+    "Negro",
+    "黑色",
+    "Nero",
+    "Noir",
+    "Чёрный"
+  ],
+  "Silver Vox": [
+    "Pilak Vox",
+    "Vox plateado",
+    "银色 Vox",
+    "Vox argento",
+    "Vox argenté",
+    "Серебристый Вокс"
+  ],
+  "Locked": [
+    "Naka-lock",
+    "Bloqueado",
+    "未解锁",
+    "Bloccato",
+    "Verrouillé",
+    "Закрыто"
+  ],
+  "Follow FIND in order. Set later ingredients aside to reach the next one.": [
+    "Sundin ang HANAPIN. Itabi muna ang ibang sangkap.",
+    "Sigue BUSCAR en orden. Aparta los ingredientes posteriores.",
+    "按寻找清单顺序收集。先把后面的食材放在一旁。",
+    "Segui TROVA in ordine. Metti da parte gli altri ingredienti.",
+    "Suis CHERCHER dans l'ordre. Mets les autres ingrédients de côté.",
+    "Следуй списку ПОИСК. Отложи остальные ингредиенты."
+  ],
+  "Collect the next FIND item, or set it aside to reach the next ingredient.": [
+    "Kunin ang susunod sa HANAPIN o itabi muna ang hawak.",
+    "Recoge el siguiente ingrediente o aparta el que tienes.",
+    "收集清单中的下一项，或先把手中的物品放在一旁。",
+    "Raccogli il prossimo ingrediente o metti da parte quello che hai.",
+    "Ramasse le prochain ingrédient ou pose celui que tu tiens.",
+    "Собери следующий ингредиент или отложи предмет в лапе."
+  ],
+  "1. Follow FIND from the first item down the list.": [
+    "1. Sundin ang HANAPIN mula sa unang sangkap.",
+    "1. Sigue BUSCAR desde el primer ingrediente.",
+    "1. 从寻找清单的第一项开始。",
+    "1. Segui TROVA dal primo ingrediente.",
+    "1. Suis CHERCHER depuis le premier ingrédient.",
+    "1. Следуй списку ПОИСК с первого пункта."
+  ],
+  "2. Only its next unchecked item can go in COLLECT.": [
+    "2. Ang susunod lang na sangkap ang puwedeng kolektahin.",
+    "2. Solo puedes recoger el siguiente ingrediente pendiente.",
+    "2. 只能收集下一个尚未打勾的食材。",
+    "2. Puoi raccogliere solo il prossimo ingrediente richiesto.",
+    "2. Seul le prochain ingrédient non coché peut être ramassé.",
+    "2. Собирай только следующий неотмеченный ингредиент."
+  ],
+  "3. Set later ingredients and junk to the side to reach it.": [
+    "3. Itabi muna ang ibang sangkap at basura.",
+    "3. Aparta otros ingredientes y basura para alcanzarlo.",
+    "3. 把其他食材和垃圾放在一旁，找到它。",
+    "3. Sposta gli altri ingredienti e i rifiuti per raggiungerlo.",
+    "3. Écarte les autres ingrédients et déchets pour l'atteindre.",
+    "3. Отложи другие ингредиенты и мусор, чтобы добраться до него."
+  ],
+  "4. Collect a staged ingredient when it becomes NEXT.": [
+    "4. Kolektahin ang itinabing sangkap kapag ito na ang SUSUNOD.",
+    "4. Recoge un ingrediente apartado cuando sea el SIGUIENTE.",
+    "4. 轮到暂存的食材时，再把它收集起来。",
+    "4. Raccogli un ingrediente messo da parte quando è il PROSSIMO.",
+    "4. Ramasse un ingrédient mis de côté quand c'est le SUIVANT.",
+    "4. Собери отложенный ингредиент, когда наступит его очередь."
+  ],
+  "5. Finish the list before the two minutes run out.": [
+    "5. Kumpletuhin ang listahan bago matapos ang dalawang minuto.",
+    "5. Completa la lista antes de que pasen dos minutos.",
+    "5. 在两分钟内完成清单。",
+    "5. Completa la lista entro due minuti.",
+    "5. Termine la liste en moins de deux minutes.",
+    "5. Заверши список за две минуты."
+  ],
+  "Use your paw to grab the top item of the stack.": [
+    "Gamitin ang paa para kunin ang nasa ibabaw.",
+    "Usa la pata para agarrar el objeto superior.",
+    "用猫爪抓住最上面的物品。",
+    "Usa la zampa per prendere l'oggetto in cima.",
+    "Utilise ta patte pour saisir l'objet du dessus.",
+    "Возьми лапой верхний предмет."
+  ],
+  "Ingredient set aside. Follow FIND in order.": [
+    "Naitabi ang sangkap. Sundin ang HANAPIN.",
+    "Ingrediente apartado. Sigue BUSCAR en orden.",
+    "食材已暂存。请按清单顺序收集。",
+    "Ingrediente messo da parte. Segui TROVA in ordine.",
+    "Ingrédient mis de côté. Suis CHERCHER dans l'ordre.",
+    "Ингредиент отложен. Следуй списку ПОИСК."
+  ],
+  "Junk stays inside the can.": [
+    "Mananatili sa basurahan ang basura.",
+    "La basura se queda en el cubo.",
+    "垃圾留在桶里。",
+    "I rifiuti restano nel bidone.",
+    "Les déchets restent dans la poubelle.",
+    "Мусор остаётся в баке."
+  ],
+  "Choose a trash can to find ingredients.": [
+    "Pumili ng basurahan para maghanap ng sangkap.",
+    "Elige un cubo para buscar ingredientes.",
+    "选择一个垃圾桶寻找食材。",
+    "Scegli un bidone per cercare ingredienti.",
+    "Choisis une poubelle pour chercher des ingrédients.",
+    "Выбери бак для поиска ингредиентов."
+  ],
+  "Finish the previous trash can first.": [
+    "Tapusin muna ang naunang basurahan.",
+    "Termina primero el cubo anterior.",
+    "请先完成上一个垃圾桶。",
+    "Completa prima il bidone precedente.",
+    "Termine d'abord la poubelle précédente.",
+    "Сначала заверши предыдущий бак."
+  ],
+  "Read both papers, then start your two-minute search.": [
+    "Basahin ang dalawang papel bago simulan ang dalawang minuto.",
+    "Lee ambas notas y comienza la búsqueda de dos minutos.",
+    "先读两张纸，再开始两分钟的寻找。",
+    "Leggi entrambi i fogli, poi inizia la ricerca di due minuti.",
+    "Lis les deux notes, puis commence les deux minutes de recherche.",
+    "Прочти обе записки и начни двухминутный поиск."
+  ],
+  "Time is up! Retry this trash can.": [
+    "Ubos na ang oras! Subukan muli.",
+    "¡Se acabó el tiempo! Reintenta este cubo.",
+    "时间到了！请重试这个垃圾桶。",
+    "Tempo scaduto! Riprova questo bidone.",
+    "Temps écoulé ! Réessaie cette poubelle.",
+    "Время вышло! Попробуй этот бак снова."
+  ],
+  "Leave that in the can. Set it beside the pile.": [
+    "Iwan iyon sa basurahan. Itabi sa tambak.",
+    "Déjalo en el cubo, junto al montón.",
+    "把它留在桶内，放在垃圾堆旁边。",
+    "Lascialo nel bidone, accanto al mucchio.",
+    "Laisse-le dans la poubelle, à côté du tas.",
+    "Оставь это в баке рядом с кучей."
+  ],
+  "Find {0} first. Set {1} aside for later.": [
+    "Hanapin muna: {0}. Itabi muna: {1}.",
+    "Busca primero {0}. Aparta {1} para después.",
+    "先找{0}。把{1}暂时放在一旁。",
+    "Trova prima {0}. Metti da parte {1}.",
+    "Trouve d'abord {0}. Mets {1} de côté.",
+    "Сначала найди: {0}. Отложи: {1}."
+  ],
+  "{0} is next. Pick it up from the side to collect.": [
+    "Susunod: {0}. Kunin ang itinabing sangkap.",
+    "Sigue {0}. Recógelo del lado.",
+    "下一个是{0}。从旁边拾起并收集。",
+    "Tocca a {0}. Raccoglilo da dove lo hai messo.",
+    "Au tour de {0}. Ramasse-le sur le côté.",
+    "Далее: {0}. Подбери отложенный ингредиент."
+  ],
+  "{0} set aside. Find {1} next.": [
+    "Naitabi: {0}. Susunod: {1}.",
+    "{0} apartado. Busca ahora {1}.",
+    "{0}已暂存。接下来找{1}。",
+    "{0} messo da parte. Cerca {1}.",
+    "{0} mis de côté. Cherche {1}.",
+    "Отложено: {0}. Далее найди: {1}."
+  ],
+  "{0} set beside the pile.": [
+    "Naitabi sa tambak: {0}.",
+    "{0} junto al montón.",
+    "{0}已放在垃圾堆旁边。",
+    "{0} accanto al mucchio.",
+    "{0} à côté du tas.",
+    "Рядом с кучей: {0}."
+  ],
+  "Find {0} first.": [
+    "Hanapin muna: {0}.",
+    "Busca primero {0}.",
+    "先找{0}。",
+    "Trova prima {0}.",
+    "Trouve d'abord {0}.",
+    "Сначала найди: {0}."
+  ],
+  "{0} collected - still uncooked.": [
+    "Nakolekta: {0} - hindi pa luto.",
+    "{0} recogido, aún sin cocinar.",
+    "已收集{0}，尚未烹饪。",
+    "{0} raccolto, ancora crudo.",
+    "{0} ramassé, pas encore cuisiné.",
+    "Собрано: {0}, ещё не приготовлено."
+  ],
+  "All ingredients collected!": [
+    "Kumpleto na ang mga sangkap!",
+    "¡Todos los ingredientes recogidos!",
+    "所有食材已收集！",
+    "Tutti gli ingredienti raccolti!",
+    "Tous les ingrédients sont ramassés !",
+    "Все ингредиенты собраны!"
+  ],
+  "Time is up. Retry to search again.": [
+    "Ubos na ang oras. Subukan muli.",
+    "Tiempo agotado. Reintenta la búsqueda.",
+    "时间到了。请重试。",
+    "Tempo scaduto. Riprova la ricerca.",
+    "Temps écoulé. Relance la recherche.",
+    "Время вышло. Начни поиск снова."
+  ],
+  "Start the search first.": [
+    "Simulan muna ang paghahanap.",
+    "Inicia primero la búsqueda.",
+    "请先开始寻找。",
+    "Inizia prima la ricerca.",
+    "Commence d'abord la recherche.",
+    "Сначала начни поиск."
+  ],
+  "LIFO: only the top item can leave the pile.": [
+    "LIFO: nasa ibabaw lang ang puwedeng kunin.",
+    "LIFO: solo puede salir el objeto superior.",
+    "后进先出：只能取出最上面的物品。",
+    "LIFO: puoi prendere solo l'oggetto in cima.",
+    "LIFO : seul l'objet du dessus peut sortir.",
+    "LIFO: можно взять только верхний предмет."
+  ],
+  "Time is up. Retry this trash can.": [
+    "Ubos na ang oras. Subukan muli ang basurahan.",
+    "Tiempo agotado. Reintenta este cubo.",
+    "时间到了。请重试这个垃圾桶。",
+    "Tempo scaduto. Riprova questo bidone.",
+    "Temps écoulé. Réessaie cette poubelle.",
+    "Время вышло. Попробуй этот бак снова."
+  ],
+  "That ingredient is not set aside.": [
+    "Hindi nakatabi ang sangkap na iyon.",
+    "Ese ingrediente no está apartado.",
+    "该食材没有暂存。",
+    "Quell'ingrediente non è stato messo da parte.",
+    "Cet ingrédient n'est pas mis de côté.",
+    "Этот ингредиент не отложен."
+  ],
+  "the next ingredient": [
+    "ang susunod na sangkap",
+    "el siguiente ingrediente",
+    "下一个食材",
+    "il prossimo ingrediente",
+    "le prochain ingrédient",
+    "следующий ингредиент"
+  ],
+  "Could not save progress. Check the data folder is writable.": [
+    "Hindi na-save ang progreso. Tiyaking nasusulatan ang data folder.",
+    "No se pudo guardar. Comprueba los permisos de la carpeta data.",
+    "无法保存进度。请检查 data 文件夹是否可写。",
+    "Impossibile salvare. Controlla i permessi della cartella data.",
+    "Sauvegarde impossible. Vérifie les droits du dossier data.",
+    "Не удалось сохранить. Проверь доступ к папке data."
+  ],
+  "NEXT LEVEL": [
+    "SUSUNOD NA LEVEL",
+    "SIGUIENTE NIVEL",
+    "下一关",
+    "LIVELLO SUCCESSIVO",
+    "NIVEAU SUIVANT",
+    "СЛЕДУЮЩИЙ УРОВЕНЬ"
+  ],
+  "Cooking Time": [
+    "Oras ng pagluluto",
+    "Hora de cocinar",
+    "烹饪时间",
+    "È ora di cucinare",
+    "À vos fourneaux",
+    "Время готовить"
+  ],
+  "Find the ingredients": [
+    "Hanapin ang mga sangkap",
+    "Busca los ingredientes",
+    "寻找食材",
+    "Trova gli ingredienti",
+    "Trouve les ingrédients",
+    "Найди ингредиенты"
+  ],
+  "LEVEL 2: COOKING TIME": [
+    "LEVEL 2: ORAS NG PAGLULUTO",
+    "NIVEL 2: A COCINAR",
+    "第2关：烹饪时间",
+    "LIVELLO 2: SI CUCINA",
+    "NIVEAU 2 : EN CUISINE",
+    "УРОВЕНЬ 2: ГОТОВИМ"
+  ],
+  "LEVEL 2  /  {0}": [
+    "LEVEL 2  /  {0}",
+    "NIVEL 2  /  {0}",
+    "第2关  /  {0}",
+    "LIVELLO 2  /  {0}",
+    "NIVEAU 2  /  {0}",
+    "УРОВЕНЬ 2  /  {0}"
+  ],
+  "Complete five dishes. Follow each recipe in order.": [
+    "Kumpletuhin ang limang putahe. Sundin ang bawat resipe.",
+    "Completa cinco platos. Sigue cada receta en orden.",
+    "完成五道菜。按顺序遵循每份食谱。",
+    "Completa cinque piatti. Segui ogni ricetta in ordine.",
+    "Termine cinq plats. Suis chaque recette dans l'ordre.",
+    "Приготовь пять блюд. Следуй рецептам по порядку."
+  ],
+  "Spaghetti": [
+    "Espageti",
+    "Espaguetis",
+    "意大利面",
+    "Spaghetti",
+    "Spaghettis",
+    "Спагетти"
+  ],
+  "Fried Chicken": [
+    "Pritong manok",
+    "Pollo frito",
+    "炸鸡",
+    "Pollo fritto",
+    "Poulet frit",
+    "Жареная курица"
+  ],
+  "Lumpia": [
+    "Lumpia",
+    "Rollitos",
+    "春卷",
+    "Involtini",
+    "Rouleaux",
+    "Лумпия"
+  ],
+  "Peach Mango Pie": [
+    "Pie ng peach at mangga",
+    "Pastel de melocotón y mango",
+    "蜜桃芒果派",
+    "Torta pesca e mango",
+    "Chausson pêche-mangue",
+    "Пирог с персиком и манго"
+  ],
+  "Burger": [
+    "Burger",
+    "Hamburguesa",
+    "汉堡",
+    "Hamburger",
+    "Burger",
+    "Бургер"
+  ],
+  "Equipment": [
+    "Kagamitan",
+    "Utensilios",
+    "厨具",
+    "Attrezzi",
+    "Ustensiles",
+    "Инвентарь"
+  ],
+  "Ingredients": [
+    "Mga sangkap",
+    "Ingredientes",
+    "食材",
+    "Ingredienti",
+    "Ingrédients",
+    "Ингредиенты"
+  ],
+  "Prepared": [
+    "Naihanda",
+    "Preparado",
+    "已处理",
+    "Preparati",
+    "Préparés",
+    "Заготовки"
+  ],
+  "Prepared food": [
+    "Naihandang pagkain",
+    "Comida preparada",
+    "已处理食物",
+    "Cibo preparato",
+    "Aliments préparés",
+    "Заготовка"
+  ],
+  "Chopping board": [
+    "Sangkalan",
+    "Tabla de cortar",
+    "砧板",
+    "Tagliere",
+    "Planche",
+    "Разделочная доска"
+  ],
+  "Knife": [
+    "Kutsilyo",
+    "Cuchillo",
+    "刀",
+    "Coltello",
+    "Couteau",
+    "Нож"
+  ],
+  "Pan": [
+    "Kawali",
+    "Sartén",
+    "平底锅",
+    "Padella",
+    "Poêle",
+    "Сковорода"
+  ],
+  "Pot": [
+    "Kaldero",
+    "Olla",
+    "煮锅",
+    "Pentola",
+    "Casserole",
+    "Кастрюля"
+  ],
+  "Bowl": [
+    "Mangkok",
+    "Cuenco",
+    "碗",
+    "Ciotola",
+    "Bol",
+    "Миска"
+  ],
+  "Plate": [
+    "Plato",
+    "Plato",
+    "盘子",
+    "Piatto",
+    "Assiette",
+    "Тарелка"
+  ],
+  "Spoon": [
+    "Kutsara",
+    "Cuchara",
+    "勺子",
+    "Cucchiaio",
+    "Cuillère",
+    "Ложка"
+  ],
+  "Fork": [
+    "Tinidor",
+    "Tenedor",
+    "叉子",
+    "Forchetta",
+    "Fourchette",
+    "Вилка"
+  ],
+  "Strainer": [
+    "Salaan",
+    "Colador",
+    "滤网",
+    "Colino",
+    "Passoire",
+    "Дуршлаг"
+  ],
+  "Brush": [
+    "Pahid",
+    "Pincel",
+    "刷子",
+    "Pennello",
+    "Pinceau",
+    "Кисть"
+  ],
+  "Tray": [
+    "Bandeha",
+    "Bandeja",
+    "烤盘",
+    "Vassoio",
+    "Plateau",
+    "Противень"
+  ],
+  "Work area": [
+    "Lugar ng paghahanda",
+    "Zona de trabajo",
+    "操作区",
+    "Piano di lavoro",
+    "Plan de travail",
+    "Рабочая зона"
+  ],
+  "Serving area": [
+    "Lugar ng paghahain",
+    "Zona de emplatado",
+    "装盘区",
+    "Zona di servizio",
+    "Zone de dressage",
+    "Зона подачи"
+  ],
+  "Sink": [
+    "Lababo",
+    "Fregadero",
+    "水槽",
+    "Lavello",
+    "Évier",
+    "Мойка"
+  ],
+  "Stove": [
+    "Kalan",
+    "Fogón",
+    "炉灶",
+    "Fornello",
+    "Plaque",
+    "Плита"
+  ],
+  "Drag {0} to {1}.": [
+    "I-drag ang {0} sa {1}.",
+    "Arrastra {0} a {1}.",
+    "把{0}拖到{1}。",
+    "Trascina {0} su {1}.",
+    "Glisse {0} vers {1}.",
+    "Перетащи {0} в {1}."
+  ],
+  "Drag {0} across {1} three times.": [
+    "I-drag ang {0} sa {1} nang tatlong beses.",
+    "Arrastra {0} sobre {1} tres veces.",
+    "用{0}在{1}上拖动三次。",
+    "Trascina {0} su {1} tre volte.",
+    "Passe {0} sur {1} trois fois.",
+    "Проведи {0} по {1} три раза."
+  ],
+  "Click HEAT, then wait for cooking to finish.": [
+    "Pindutin ang INIT at hintaying maluto.",
+    "Pulsa CALENTAR y espera a que termine.",
+    "点击加热，等待烹饪完成。",
+    "Premi SCALDA e attendi la cottura.",
+    "Appuie sur CHAUFFER et attends la cuisson.",
+    "Нажми НАГРЕВ и дождись готовности."
+  ],
+  "HEAT": [
+    "INIT",
+    "CALENTAR",
+    "加热",
+    "SCALDA",
+    "CHAUFFER",
+    "НАГРЕВ"
+  ],
+  "COOKING...": [
+    "NAGLULUTO...",
+    "COCINANDO...",
+    "烹饪中…",
+    "COTTURA...",
+    "CUISSON...",
+    "ГОТОВИТСЯ..."
+  ],
+  "Click and hold. Drag to the gold outline.": [
+    "Pindutin at hawakan. I-drag sa gintong balangkas.",
+    "Mantén pulsado y arrastra al contorno dorado.",
+    "按住并拖到金色框内。",
+    "Tieni premuto e trascina nel bordo dorato.",
+    "Maintiens puis glisse vers le cadre doré.",
+    "Удерживай и перетащи в золотую рамку."
+  ],
+  "Action {0} / {1}": [
+    "Gawain {0} / {1}",
+    "Acción {0} / {1}",
+    "操作 {0} / {1}",
+    "Azione {0} / {1}",
+    "Action {0} / {1}",
+    "Действие {0} / {1}"
+  ],
+  "Drag from storage": [
+    "I-drag mula sa imbakan",
+    "Arrastra desde el almacén",
+    "从储物区拖取",
+    "Trascina dal deposito",
+    "Glisse depuis le rangement",
+    "Перетащи из хранилища"
+  ],
+  "Prepared food stays for later steps": [
+    "Nananatili ang naihandang sangkap",
+    "Las preparaciones se guardan para después",
+    "已处理的食物会保留到后续步骤",
+    "I preparati restano per i passi successivi",
+    "Les préparations restent disponibles",
+    "Заготовки сохраняются для следующих этапов"
+  ],
+  "Follow the highlighted cooking action.": [
+    "Sundin ang naka-highlight na gawain.",
+    "Sigue la acción resaltada.",
+    "请完成高亮显示的操作。",
+    "Segui l'azione evidenziata.",
+    "Suis l'action surlignée.",
+    "Выполни выделенное действие."
+  ],
+  "Prepare aromatics and meats": [
+    "Ihanda ang pampalasa at karne",
+    "Prepara aromáticos y carnes",
+    "准备香料和肉类",
+    "Prepara aromi e carni",
+    "Prépare aromates et viandes",
+    "Подготовь овощи и мясо"
+  ],
+  "Prepare the sauce": [
+    "Ihanda ang sarsa",
+    "Prepara la salsa",
+    "准备酱汁",
+    "Prepara il sugo",
+    "Prépare la sauce",
+    "Приготовь соус"
+  ],
+  "Cook the pasta": [
+    "Lutuin ang pasta",
+    "Cuece la pasta",
+    "煮意大利面",
+    "Cuoci la pasta",
+    "Cuis les pâtes",
+    "Свари макароны"
+  ],
+  "Combine pasta and sauce": [
+    "Paghaluin ang pasta at sarsa",
+    "Mezcla pasta y salsa",
+    "混合面条和酱汁",
+    "Unisci pasta e sugo",
+    "Mélange pâtes et sauce",
+    "Смешай макароны с соусом"
+  ],
+  "Plate and serve": [
+    "Ilagay sa plato at ihain",
+    "Emplata y sirve",
+    "装盘上菜",
+    "Impiatta e servi",
+    "Dresse et sers",
+    "Выложи и подай"
+  ],
+  "Marinate the chicken": [
+    "Ibabad ang manok",
+    "Marina el pollo",
+    "腌制鸡肉",
+    "Marina il pollo",
+    "Marine le poulet",
+    "Замаринуй курицу"
+  ],
+  "Bread the chicken": [
+    "Balutan ng harina ang manok",
+    "Empana el pollo",
+    "给鸡肉裹粉",
+    "Impana il pollo",
+    "Pane le poulet",
+    "Обваляй курицу"
+  ],
+  "Heat the oil": [
+    "Painitin ang mantika",
+    "Calienta el aceite",
+    "加热油",
+    "Scalda l'olio",
+    "Chauffe l'huile",
+    "Разогрей масло"
+  ],
+  "Fry the chicken": [
+    "Iprito ang manok",
+    "Fríe el pollo",
+    "炸鸡肉",
+    "Friggi il pollo",
+    "Fris le poulet",
+    "Пожарь курицу"
+  ],
+  "Prepare the vegetables": [
+    "Ihanda ang mga gulay",
+    "Prepara las verduras",
+    "准备蔬菜",
+    "Prepara le verdure",
+    "Prépare les légumes",
+    "Подготовь овощи"
+  ],
+  "Mix the filling": [
+    "Paghaluin ang palaman",
+    "Mezcla el relleno",
+    "混合馅料",
+    "Mescola il ripieno",
+    "Mélange la farce",
+    "Смешай начинку"
+  ],
+  "Wrap and seal": [
+    "Balutin at isara",
+    "Envuelve y sella",
+    "包裹并封口",
+    "Avvolgi e sigilla",
+    "Roule et ferme",
+    "Заверни и запечатай"
+  ],
+  "Fry the lumpia": [
+    "Iprito ang lumpia",
+    "Fríe los rollitos",
+    "炸春卷",
+    "Friggi gli involtini",
+    "Fris les rouleaux",
+    "Обжарь лумпию"
+  ],
+  "Prepare fruit filling": [
+    "Ihanda ang palamang prutas",
+    "Prepara el relleno de fruta",
+    "准备水果馅",
+    "Prepara il ripieno di frutta",
+    "Prépare la garniture aux fruits",
+    "Приготовь фруктовую начинку"
+  ],
+  "Prepare the pastry": [
+    "Ihanda ang masa",
+    "Prepara la masa",
+    "准备酥皮",
+    "Prepara la sfoglia",
+    "Prépare la pâte",
+    "Подготовь тесто"
+  ],
+  "Assemble and seal": [
+    "Buuin at isara",
+    "Rellena y sella",
+    "组合并封口",
+    "Assembla e sigilla",
+    "Assemble et ferme",
+    "Собери и запечатай"
+  ],
+  "Cook the pies": [
+    "Lutuin ang mga pie",
+    "Cocina los pasteles",
+    "烹制馅饼",
+    "Cuoci le tortine",
+    "Cuis les chaussons",
+    "Приготовь пирожки"
+  ],
+  "Prepare the patty": [
+    "Ihanda ang patty",
+    "Prepara la hamburguesa",
+    "准备肉饼",
+    "Prepara la polpetta",
+    "Prépare le steak",
+    "Подготовь котлету"
+  ],
+  "Cook the patty": [
+    "Lutuin ang patty",
+    "Cocina la hamburguesa",
+    "煎肉饼",
+    "Cuoci la polpetta",
+    "Cuis le steak",
+    "Пожарь котлету"
+  ],
+  "Prepare buns and sauce": [
+    "Ihanda ang tinapay at sarsa",
+    "Prepara pan y salsa",
+    "准备面包和酱汁",
+    "Prepara pane e salsa",
+    "Prépare pains et sauce",
+    "Подготовь булочки и соус"
+  ],
+  "Assemble and serve": [
+    "Buuin at ihain",
+    "Monta y sirve",
+    "组合并上菜",
+    "Assembla e servi",
+    "Assemble et sers",
+    "Собери и подай"
+  ],
+  "Welcome to your kitchen": [
+    "Maligayang pagdating sa kusina",
+    "Bienvenido a tu cocina",
+    "欢迎来到厨房",
+    "Benvenuto in cucina",
+    "Bienvenue en cuisine",
+    "Добро пожаловать на кухню"
+  ],
+  "Click and drag": [
+    "Pindutin at i-drag",
+    "Pulsa y arrastra",
+    "点击并拖动",
+    "Clicca e trascina",
+    "Clique et glisse",
+    "Нажми и перетащи"
+  ],
+  "Follow the recipe": [
+    "Sundin ang resipe",
+    "Sigue la receta",
+    "遵循食谱",
+    "Segui la ricetta",
+    "Suis la recette",
+    "Следуй рецепту"
+  ],
+  "First step, then the next": [
+    "Unang hakbang bago ang susunod",
+    "Primero un paso, luego otro",
+    "先完成第一步，再做下一步",
+    "Prima un passo, poi il successivo",
+    "Une étape, puis la suivante",
+    "Сначала первый этап, затем следующий"
+  ],
+  "Five minutes per dish": [
+    "Limang minuto bawat putahe",
+    "Cinco minutos por plato",
+    "每道菜五分钟",
+    "Cinque minuti per piatto",
+    "Cinq minutes par plat",
+    "Пять минут на блюдо"
+  ],
+  "Storage holds your tools and ingredients. Use the counter, sink, and stove.": [
+    "Nasa imbakan ang gamit at sangkap. Gamitin ang mesa, lababo at kalan.",
+    "El almacén guarda útiles e ingredientes. Usa encimera, fregadero y fogón.",
+    "厨具和食材都在储物区。使用操作台、水槽和炉灶。",
+    "Nel deposito trovi attrezzi e ingredienti. Usa piano, lavello e fornello.",
+    "Les rangements contiennent outils et ingrédients. Utilise plan, évier et plaque.",
+    "В хранилище лежат продукты и инвентарь. Используй стол, мойку и плиту."
+  ],
+  "Practice: drag the chopping board into the gold work area.": [
+    "Pagsasanay: i-drag ang sangkalan sa gintong lugar.",
+    "Practica: arrastra la tabla a la zona dorada.",
+    "练习：把砧板拖入金色操作区。",
+    "Prova: trascina il tagliere nell'area dorata.",
+    "Entraîne-toi : glisse la planche dans la zone dorée.",
+    "Практика: перетащи доску в золотую рабочую зону."
+  ],
+  "The recipe panel shows your current stage. Complete its highlighted action.": [
+    "Ipinapakita ng resipe ang kasalukuyang yugto. Tapusin ang naka-highlight.",
+    "El panel muestra la etapa actual. Completa la acción resaltada.",
+    "食谱面板显示当前阶段。完成高亮操作。",
+    "Il pannello mostra la fase attuale. Completa l'azione evidenziata.",
+    "Le panneau indique l'étape actuelle. Termine l'action surlignée.",
+    "Панель рецепта показывает текущий этап. Выполни выделенное действие."
+  ],
+  "Finish the first cooking stage before the next one becomes available.": [
+    "Tapusin ang unang yugto bago mabuksan ang susunod.",
+    "Termina la primera etapa para desbloquear la siguiente.",
+    "完成当前烹饪阶段后，下一阶段才会解锁。",
+    "Termina la prima fase per sbloccare la successiva.",
+    "Termine la première étape pour débloquer la suivante.",
+    "Заверши первый этап, чтобы открыть следующий."
+  ],
+  "The timer begins after this tutorial. Pause whenever you need a break.": [
+    "Magsisimula ang oras pagkatapos nito. Mag-pause kung kailangan.",
+    "El tiempo empieza al terminar. Pausa cuando necesites descansar.",
+    "教程结束后开始计时。需要休息时可以暂停。",
+    "Il tempo parte dopo il tutorial. Metti in pausa quando vuoi.",
+    "Le chrono démarre après ce tutoriel. Fais une pause si besoin.",
+    "Таймер начнётся после обучения. Можно сделать паузу."
+  ],
+  "START COOKING": [
+    "SIMULAN ANG PAGLULUTO",
+    "EMPEZAR A COCINAR",
+    "开始烹饪",
+    "INIZIA A CUCINARE",
+    "COMMENCER",
+    "НАЧАТЬ ГОТОВИТЬ"
+  ],
+  "SKIP": [
+    "LAMPASAN",
+    "SALTAR",
+    "跳过",
+    "SALTA",
+    "PASSER",
+    "ПРОПУСТИТЬ"
+  ],
+  "Well done!": [
+    "Magaling!",
+    "¡Muy bien!",
+    "做得好！",
+    "Ben fatto!",
+    "Bien joué !",
+    "Отлично!"
+  ],
+  "LEVEL 2 COMPLETE!": [
+    "KUMPLETO ANG LEVEL 2!",
+    "¡NIVEL 2 COMPLETADO!",
+    "第2关完成！",
+    "LIVELLO 2 COMPLETATO!",
+    "NIVEAU 2 TERMINÉ !",
+    "УРОВЕНЬ 2 ПРОЙДЕН!"
+  ],
+  "DISH COMPLETE!": [
+    "KUMPLETO ANG PUTAHE!",
+    "¡PLATO COMPLETADO!",
+    "菜品完成！",
+    "PIATTO COMPLETATO!",
+    "PLAT TERMINÉ !",
+    "БЛЮДО ГОТОВО!"
+  ],
+  "NEXT DISH": [
+    "SUSUNOD NA PUTAHE",
+    "SIGUIENTE PLATO",
+    "下一道菜",
+    "PROSSIMO PIATTO",
+    "PLAT SUIVANT",
+    "СЛЕДУЮЩЕЕ БЛЮДО"
+  ],
+  "DISHES": [
+    "MGA PUTAHE",
+    "PLATOS",
+    "菜品",
+    "PIATTI",
+    "PLATS",
+    "БЛЮДА"
+  ],
+  "RETRY DISH": [
+    "ULITIN ANG PUTAHE",
+    "REINTENTAR PLATO",
+    "重试菜品",
+    "RIPROVA PIATTO",
+    "RÉESSAYER LE PLAT",
+    "ПОВТОРИТЬ БЛЮДО"
+  ],
+  "A fresh attempt gives you five minutes.": [
+    "May limang minuto ka sa bagong pagsubok.",
+    "Un nuevo intento te da cinco minutos.",
+    "重试将重新获得五分钟。",
+    "Un nuovo tentativo ti dà cinque minuti.",
+    "Un nouvel essai te donne cinq minutes.",
+    "Новая попытка даёт пять минут."
+  ],
+  "Video unavailable. Continue with SKIP.": [
+    "Hindi ma-play ang video. Pindutin ang LAMPASAN.",
+    "Vídeo no disponible. Pulsa SALTAR.",
+    "视频不可用。请点击跳过。",
+    "Video non disponibile. Premi SALTA.",
+    "Vidéo indisponible. Appuie sur PASSER.",
+    "Видео недоступно. Нажми ПРОПУСТИТЬ."
+  ],
+  "Loading video...": [
+    "Nilo-load ang video...",
+    "Cargando vídeo...",
+    "正在加载视频…",
+    "Caricamento video...",
+    "Chargement vidéo...",
+    "Загрузка видео..."
+  ],
+  "Chopped onion": [
+    "Tinadtad na sibuyas",
+    "Cebolla picada",
+    "洋葱碎",
+    "Cipolla tritata",
+    "Oignon haché",
+    "Нарезанный лук"
+  ],
+  "Chopped garlic": [
+    "Tinadtad na bawang",
+    "Ajo picado",
+    "蒜末",
+    "Aglio tritato",
+    "Ail haché",
+    "Рубленый чеснок"
+  ],
+  "Sliced hot dogs": [
+    "Hiniwang hotdog",
+    "Salchichas cortadas",
+    "香肠片",
+    "Würstel affettati",
+    "Saucisses tranchées",
+    "Нарезанные сосиски"
+  ],
+  "Cooked sauce": [
+    "Lutong sarsa",
+    "Salsa cocida",
+    "煮好的酱汁",
+    "Sugo cotto",
+    "Sauce cuite",
+    "Готовый соус"
+  ],
+  "Boiled pasta": [
+    "Pinakuluang pasta",
+    "Pasta cocida",
+    "煮好的面条",
+    "Pasta bollita",
+    "Pâtes cuites",
+    "Варёные макароны"
+  ],
+  "Drained pasta": [
+    "Pasta na sinala",
+    "Pasta escurrida",
+    "沥干的面条",
+    "Pasta scolata",
+    "Pâtes égouttées",
+    "Отцеженные макароны"
+  ],
+  "Mixed spaghetti": [
+    "Pinaghalong espageti",
+    "Espaguetis mezclados",
+    "拌好的意大利面",
+    "Spaghetti conditi",
+    "Spaghettis mélangés",
+    "Спагетти с соусом"
+  ],
+  "Marinated chicken": [
+    "Ibinabad na manok",
+    "Pollo marinado",
+    "腌好的鸡肉",
+    "Pollo marinato",
+    "Poulet mariné",
+    "Маринованная курица"
+  ],
+  "Seasoned flour": [
+    "Timpladong harina",
+    "Harina sazonada",
+    "调味面粉",
+    "Farina condita",
+    "Farine assaisonnée",
+    "Мука со специями"
+  ],
+  "Coated chicken": [
+    "Binalutang manok",
+    "Pollo empanado",
+    "裹粉鸡肉",
+    "Pollo impanato",
+    "Poulet pané",
+    "Курица в панировке"
+  ],
+  "Hot oil": [
+    "Mainit na mantika",
+    "Aceite caliente",
+    "热油",
+    "Olio caldo",
+    "Huile chaude",
+    "Горячее масло"
+  ],
+  "Frying chicken": [
+    "Pinipritong manok",
+    "Pollo friéndose",
+    "正在炸的鸡肉",
+    "Pollo in frittura",
+    "Poulet en friture",
+    "Курица жарится"
+  ],
+  "Drained chicken": [
+    "Manok na sinala",
+    "Pollo escurrido",
+    "沥油鸡肉",
+    "Pollo scolato",
+    "Poulet égoutté",
+    "Курица без лишнего масла"
+  ],
+  "Diced white onion": [
+    "Diced na puting sibuyas",
+    "Cebolla blanca picada",
+    "白洋葱丁",
+    "Cipolla bianca a dadini",
+    "Oignon blanc en dés",
+    "Кубики белого лука"
+  ],
+  "Diced carrots": [
+    "Diced na karot",
+    "Zanahoria picada",
+    "胡萝卜丁",
+    "Carote a dadini",
+    "Carottes en dés",
+    "Кубики моркови"
+  ],
+  "Chopped scallions": [
+    "Tinadtad na dahon ng sibuyas",
+    "Cebolletas picadas",
+    "葱花",
+    "Cipollotti tritati",
+    "Oignons verts hachés",
+    "Нарезанный зелёный лук"
+  ],
+  "Lumpia filling": [
+    "Palaman ng lumpia",
+    "Relleno de rollitos",
+    "春卷馅",
+    "Ripieno degli involtini",
+    "Farce des rouleaux",
+    "Начинка лумпии"
+  ],
+  "Filled wrapper": [
+    "May palamang balot",
+    "Lámina con relleno",
+    "放好馅的春卷皮",
+    "Sfoglia farcita",
+    "Feuille garnie",
+    "Обёртка с начинкой"
+  ],
+  "Rolled lumpia": [
+    "Nabilot na lumpia",
+    "Rollito enrollado",
+    "卷好的春卷",
+    "Involtino arrotolato",
+    "Rouleau roulé",
+    "Свёрнутая лумпия"
+  ],
+  "Sealed lumpia": [
+    "Naisarang lumpia",
+    "Rollito sellado",
+    "封好的春卷",
+    "Involtino sigillato",
+    "Rouleau fermé",
+    "Запечатанная лумпия"
+  ],
+  "Frying lumpia": [
+    "Pinipritong lumpia",
+    "Rollitos friéndose",
+    "正在炸的春卷",
+    "Involtini in frittura",
+    "Rouleaux en friture",
+    "Лумпия жарится"
+  ],
+  "Drained lumpia": [
+    "Lumpia na sinala",
+    "Rollitos escurridos",
+    "沥油春卷",
+    "Involtini scolati",
+    "Rouleaux égouttés",
+    "Лумпия без лишнего масла"
+  ],
+  "Diced mango": [
+    "Diced na mangga",
+    "Mango picado",
+    "芒果丁",
+    "Mango a dadini",
+    "Mangue en dés",
+    "Кубики манго"
+  ],
+  "Diced peach": [
+    "Diced na peach",
+    "Melocotón picado",
+    "蜜桃丁",
+    "Pesca a dadini",
+    "Pêche en dés",
+    "Кубики персика"
+  ],
+  "Fruit filling": [
+    "Palamang prutas",
+    "Relleno de fruta",
+    "水果馅",
+    "Ripieno di frutta",
+    "Garniture aux fruits",
+    "Фруктовая начинка"
+  ],
+  "Cut pastry": [
+    "Hiniwang masa",
+    "Masa cortada",
+    "切好的酥皮",
+    "Sfoglia tagliata",
+    "Pâte découpée",
+    "Нарезанное тесто"
+  ],
+  "Egg wash": [
+    "Pinagbateng itlog",
+    "Huevo batido",
+    "蛋液",
+    "Uovo sbattuto",
+    "Dorure à l'œuf",
+    "Яичная смазка"
+  ],
+  "Filled pastry": [
+    "Masang may palaman",
+    "Masa rellena",
+    "填好馅的酥皮",
+    "Sfoglia farcita",
+    "Pâte garnie",
+    "Тесто с начинкой"
+  ],
+  "Sealed pie": [
+    "Naisarang pie",
+    "Pastel sellado",
+    "封好的馅饼",
+    "Tortina sigillata",
+    "Chausson fermé",
+    "Запечатанный пирожок"
+  ],
+  "Frying pie": [
+    "Pinipritong pie",
+    "Pastel friéndose",
+    "正在炸的馅饼",
+    "Tortina in frittura",
+    "Chausson en friture",
+    "Пирожок жарится"
+  ],
+  "Drained pie": [
+    "Pie na sinala",
+    "Pastel escurrido",
+    "沥油馅饼",
+    "Tortina scolata",
+    "Chausson égoutté",
+    "Пирожок без лишнего масла"
+  ],
+  "Sliced tomato": [
+    "Hiniwang kamatis",
+    "Tomate en rodajas",
+    "番茄片",
+    "Pomodoro a fette",
+    "Tomate en tranches",
+    "Ломтики помидора"
+  ],
+  "Sliced onion": [
+    "Hiniwang sibuyas",
+    "Cebolla en rodajas",
+    "洋葱圈",
+    "Cipolla a fette",
+    "Oignon en tranches",
+    "Ломтики лука"
+  ],
+  "Sliced pickles": [
+    "Hiniwang atsara",
+    "Pepinillos cortados",
+    "腌黄瓜片",
+    "Cetriolini a fette",
+    "Cornichons tranchés",
+    "Ломтики огурцов"
+  ],
+  "Washed lettuce": [
+    "Hinugasang letsugas",
+    "Lechuga lavada",
+    "洗好的生菜",
+    "Lattuga lavata",
+    "Laitue lavée",
+    "Вымытый салат"
+  ],
+  "Patty mixture": [
+    "Halo para sa patty",
+    "Mezcla de hamburguesa",
+    "肉饼混合料",
+    "Impasto per polpetta",
+    "Mélange pour steak",
+    "Смесь для котлеты"
+  ],
+  "Raw patty": [
+    "Hilaw na patty",
+    "Hamburguesa cruda",
+    "生肉饼",
+    "Polpetta cruda",
+    "Steak cru",
+    "Сырая котлета"
+  ],
+  "Cooked patty": [
+    "Lutong patty",
+    "Hamburguesa cocida",
+    "熟肉饼",
+    "Polpetta cotta",
+    "Steak cuit",
+    "Готовая котлета"
+  ],
+  "Toasted buns": [
+    "Tostadong tinapay",
+    "Pan tostado",
+    "烤好的面包",
+    "Panini tostati",
+    "Pains grillés",
+    "Поджаренные булочки"
+  ],
+  "Bottom bun": [
+    "Ibabang tinapay",
+    "Base del pan",
+    "下层面包",
+    "Base del panino",
+    "Pain du dessous",
+    "Нижняя булочка"
+  ],
+  "Burger sauce": [
+    "Sarsa ng burger",
+    "Salsa de hamburguesa",
+    "汉堡酱",
+    "Salsa per hamburger",
+    "Sauce burger",
+    "Соус для бургера"
+  ],
+  "RESET PROGRESS": [
+    "I-RESET ANG PAG-USAD",
+    "REINICIAR PROGRESO",
+    "重置进度",
+    "AZZERA PROGRESSI",
+    "RÉINITIALISER",
+    "СБРОСИТЬ ПРОГРЕСС"
+  ],
+  "Restart both levels. Keep all wardrobe rewards.": [
+    "Ulitin ang dalawang level. Mananatili ang lahat ng gantimpalang kasuotan.",
+    "Reinicia ambos niveles. Conserva todas las recompensas de vestuario.",
+    "重新开始两个关卡，保留所有装扮奖励。",
+    "Ricomincia entrambi i livelli. Conserva tutti i premi del guardaroba.",
+    "Recommencez les deux niveaux. Gardez toutes les tenues gagnées.",
+    "Начните оба уровня заново. Все награды гардероба сохранятся."
+  ],
+  "CANCEL": [
+    "KANSELAHIN",
+    "CANCELAR",
+    "取消",
+    "ANNULLA",
+    "ANNULER",
+    "ОТМЕНА"
+  ],
+  "COMPLETED": [
+    "KUMPLETO",
+    "COMPLETADO",
+    "已完成",
+    "COMPLETATO",
+    "TERMINÉ",
+    "ПРОЙДЕНО"
+  ],
+  "IN PROGRESS": [
+    "GINAGAWA",
+    "EN CURSO",
+    "进行中",
+    "IN CORSO",
+    "EN COURS",
+    "В ПРОЦЕССЕ"
+  ],
+  "LEVELS": [
+    "MGA LEVEL",
+    "NIVELES",
+    "关卡",
+    "LIVELLI",
+    "NIVEAUX",
+    "УРОВНИ"
+  ],
+  "Prepared food is on the counter.": [
+    "Nasa mesa ang mga inihandang sangkap.",
+    "Los ingredientes preparados están en la encimera.",
+    "备好的食材在台面上。",
+    "Gli ingredienti pronti sono sul bancone.",
+    "Les ingrédients préparés sont sur le plan de travail.",
+    "Подготовленные продукты на столе."
+  ],
+  "Pick up the highlighted tray.": [
+    "Kunin ang sangkap sa naka-highlight na tray.",
+    "Recoge el ingrediente de la bandeja resaltada.",
+    "从高亮托盘拿取食材。",
+    "Prendi l’ingrediente dal vassoio evidenziato.",
+    "Prenez l’ingrédient dans le plateau indiqué.",
+    "Возьмите ингредиент с выделенного подноса."
+  ],
+  "Nothing else needed from storage.": [
+    "Wala nang kailangang kunin sa imbakan.",
+    "No necesitas nada más del almacén.",
+    "储物区没有其他所需物品。",
+    "Non serve altro dalla dispensa.",
+    "Rien d’autre à prendre dans la réserve.",
+    "Больше ничего из кладовой не нужно."
+  ],
+  "Complete a trash can or dish to unlock wardrobe rewards.": [
+    "Tapusin ang isang basurahan o putahe para mag-unlock ng kasuotan.",
+    "Completa un contenedor o plato para desbloquear recompensas de vestuario.",
+    "完成一个垃圾桶或菜品，解锁装扮奖励。",
+    "Completa un bidone o un piatto per sbloccare premi del guardaroba.",
+    "Terminez une poubelle ou un plat pour débloquer des tenues.",
+    "Завершите поиск в баке или блюдо, чтобы открыть награды гардероба."
+  ],
+  "Drag {0} to {1} once, then wait.": [
+    "I-drag ang {0} sa {1} nang isang beses, saka maghintay.",
+    "Arrastra {0} a {1} una vez y espera.",
+    "将{0}拖到{1}一次，然后等待。",
+    "Trascina {0} su {1} una volta, poi attendi.",
+    "Faites glisser {0} vers {1} une fois, puis attendez.",
+    "Перетащите {0} к {1} один раз и подождите."
+  ],
+  "Drag once, then wait.": [
+    "I-drag nang isang beses, saka maghintay.",
+    "Arrastra una vez y espera.",
+    "拖动一次，然后等待。",
+    "Trascina una volta, poi attendi.",
+    "Faites glisser une fois, puis attendez.",
+    "Перетащите один раз и подождите."
+  ],
+  "STIRRING...": [
+    "HINAHALO...",
+    "REMOVIENDO...",
+    "搅拌中...",
+    "MESCOLANDO...",
+    "MÉLANGE...",
+    "ПЕРЕМЕШИВАНИЕ..."
+  ],
+  "BRUSHING...": [
+    "PINAPAHIRAN...",
+    "PINCELANDO...",
+    "刷涂中...",
+    "SPENNELLANDO...",
+    "BADIGEONNAGE...",
+    "СМАЗЫВАНИЕ..."
+  ],
+  "CHOPPING...": [
+    "HINIHIWA...",
+    "PICANDO...",
+    "切菜中...",
+    "TAGLIANDO...",
+    "DÉCOUPE...",
+    "НАРЕЗКА..."
+  ],
+  "WHISKING...": [
+    "BINABATI...",
+    "BATIENDO...",
+    "打蛋中...",
+    "SBATTENDO...",
+    "BATTAGE...",
+    "ВЗБИВАНИЕ..."
+  ],
+  "SEALING...": [
+    "ISINASARA...",
+    "SELLANDO...",
+    "封口中...",
+    "SIGILLANDO...",
+    "FERMETURE...",
+    "ЗАПЕЧАТЫВАНИЕ..."
+  ],
+  "Loading...": [
+    "Naglo-load...",
+    "Cargando...",
+    "加载中...",
+    "Caricamento...",
+    "Chargement...",
+    "Загрузка..."
+  ],
+  "Stage {0} - Level {1}": [
+    "Yugto {0} - Antas {1}",
+    "Etapa {0} - Nivel {1}",
+    "阶段 {0} - 关卡 {1}",
+    "Fase {0} - Livello {1}",
+    "Étape {0} - Niveau {1}",
+    "Этап {0} - Уровень {1}"
+  ],
+  "CLOSE": [
+    "ISARA",
+    "CERRAR",
+    "关闭",
+    "CHIUDI",
+    "FERMER",
+    "ЗАКРЫТЬ"
+  ],
+  "Open the cupboard, drawers, or fridge to take an item.": [
+    "Buksan ang aparador, mga drawer, o refrigerator upang kumuha ng gamit.",
+    "Abre el armario, los cajones o la nevera para tomar un objeto.",
+    "打开橱柜、抽屉或冰箱来取物品。",
+    "Apri la credenza, i cassetti o il frigorifero per prendere un oggetto.",
+    "Ouvre le placard, les tiroirs ou le réfrigérateur pour prendre un objet.",
+    "Откройте шкаф, ящики или холодильник, чтобы взять предмет."
+  ],
+  "Click the paper to read your recipe. Follow the highlighted action.": [
+    "I-click ang papel para basahin ang recipe. Sundin ang naka-highlight na gawain.",
+    "Haz clic en el papel para leer la receta. Sigue la acción resaltada.",
+    "点击纸张阅读食谱。完成高亮显示的操作。",
+    "Clicca sul foglio per leggere la ricetta. Segui l’azione evidenziata.",
+    "Clique sur la feuille pour lire la recette. Suis l’action surlignée.",
+    "Нажмите на лист, чтобы прочитать рецепт. Выполните выделенное действие."
+  ],
+  "SOUND EFFECTS": [
+    "MGA TUNOG",
+    "EFECTOS DE SONIDO",
+    "音效",
+    "EFFETTI SONORI",
+    "EFFETS SONORES",
+    "ЗВУКОВЫЕ ЭФФЕКТЫ"
+  ],
+  "Buttons, paws, and cooking sounds": [
+    "Tunog ng pindutan, paa, at pagluluto",
+    "Sonidos de botones, patas y cocina",
+    "按钮、猫爪和烹饪声音",
+    "Suoni di pulsanti, zampe e cucina",
+    "Sons des boutons, des pattes et de cuisine",
+    "Звуки кнопок, лап и готовки"
+  ],
+  "Open the cupboard. Drag the chopping board to the gold work area.": [
+    "Buksan ang aparador. I-drag ang sangkalan sa gintong lugar.",
+    "Abre el armario. Arrastra la tabla a la zona dorada.",
+    "打开橱柜。把砧板拖到金色工作区。",
+    "Apri la credenza. Trascina il tagliere nell’area dorata.",
+    "Ouvre le placard. Glisse la planche vers la zone dorée.",
+    "Откройте шкаф. Перетащите доску в золотую рабочую зону."
+  ],
+  "Full Course Meal": [
+    "Kumpletong Pagkain",
+    "Comida completa",
+    "全套大餐",
+    "Pasto completo",
+    "Repas complet",
+    "Полный обед"
+  ],
+  "Stack order": [
+    "Ayos ng patong",
+    "Orden de apilado",
+    "堆叠顺序",
+    "Ordine di impilamento",
+    "Ordre d’empilage",
+    "Порядок укладки"
+  ],
+  "Eating order": [
+    "Ayos ng pagkain",
+    "Orden para comer",
+    "进食顺序",
+    "Ordine di consumo",
+    "Ordre du repas",
+    "Порядок еды"
+  ],
+  "Stack time": [
+    "Oras ng pagpatong",
+    "Tiempo para apilar",
+    "堆叠时间",
+    "Tempo per impilare",
+    "Temps d’empilage",
+    "Время укладки"
+  ],
+  "start": [
+    "simula",
+    "inicio",
+    "开始",
+    "inizio",
+    "début",
+    "начало"
+  ],
+  "end": [
+    "wakas",
+    "fin",
+    "结束",
+    "fine",
+    "fin",
+    "конец"
+  ],
+  "No hearts left": [
+    "Ubos na ang puso",
+    "No quedan corazones",
+    "爱心已用完",
+    "Cuori esauriti",
+    "Plus de cœurs",
+    "Сердца закончились"
+  ],
+  "Time is up": [
+    "Ubos na ang oras",
+    "Se acabó el tiempo",
+    "时间到",
+    "Tempo scaduto",
+    "Temps écoulé",
+    "Время вышло"
+  ],
+  "Stack the meal, and then eat to your fill!": [
+    "Ipatong ang pagkain, saka kumain hanggang mabusog!",
+    "¡Apila los platos y come hasta saciarte!",
+    "堆好餐点，然后吃个饱！",
+    "Impila i piatti, poi mangia a sazietà!",
+    "Empile les plats, puis mange à ta faim !",
+    "Сложи блюда, затем ешь досыта!"
+  ],
+  "Wrong stack order!": [
+    "Maling ayos ng patong!",
+    "¡Orden incorrecto!",
+    "堆叠顺序错误！",
+    "Ordine sbagliato!",
+    "Mauvais ordre !",
+    "Неверный порядок!"
+  ],
+  "Top plate first!": [
+    "Unahin ang nasa ibabaw!",
+    "¡Primero el plato superior!",
+    "先取最上面的盘子！",
+    "Prima il piatto in cima!",
+    "Le plat du dessus d’abord !",
+    "Сначала верхняя тарелка!"
+  ],
+  "Restart all levels. Keep all wardrobe rewards.": [
+    "Ulitin ang lahat ng level. Mananatili ang lahat ng gantimpalang kasuotan.",
+    "Reinicia todos los niveles. Conserva las recompensas de vestuario.",
+    "重置所有关卡，保留全部装扮奖励。",
+    "Ricomincia tutti i livelli. Conserva i premi del guardaroba.",
+    "Recommence tous les niveaux. Garde les récompenses de garde-robe.",
+    "Сбросить все уровни. Сохранить награды гардероба."
+  ],
+  "Peach mango pie": [
+    "Pie ng peach at mangga",
+    "Pastel de melocotón y mango",
+    "蜜桃芒果派",
+    "Torta pesca e mango",
+    "Chausson pêche-mangue",
+    "Пирог с персиком и манго"
+  ],
+  "[Meowing]": [
+    "[Ngiyaw]",
+    "[Maullidos]",
+    "[喵喵声]",
+    "[Miagolii]",
+    "[Miaulements]",
+    "[Мяуканье]"
+  ],
+  "Catatoullie dreams of eating a full-course meal.": [
+    "Pangarap ni Catatoullie na kumain ng isang kumpletong handaan.",
+    "Catatoullie sueña con disfrutar de una comida completa.",
+    "Catatoullie 梦想着享用一顿丰盛的大餐。",
+    "Catatoullie sogna di gustare un pasto completo.",
+    "Catatoullie rêve de savourer un repas complet.",
+    "Catatoullie мечтает насладиться полноценным обедом."
+  ],
+  "Help him create his own meal with the ingredients he finds.": [
+    "Tulungan siyang maghanda ng sariling pagkain gamit ang mga sangkap na mahahanap niya.",
+    "Ayúdalo a preparar su propia comida con los ingredientes que encuentre.",
+    "用他找到的食材，帮他做出属于自己的美味佳肴。",
+    "Aiutalo a preparare il suo pasto con gli ingredienti che trova.",
+    "Aide-le à préparer son repas avec les ingrédients qu’il trouve.",
+    "Помоги ему приготовить обед из найденных ингредиентов."
+  ],
+  "A full belly.": [
+    "Busog na.",
+    "La barriga llena.",
+    "肚子饱饱。",
+    "La pancia piena.",
+    "Le ventre plein.",
+    "Сытый животик."
+  ],
+  "A happy ending.": [
+    "Masayang wakas.",
+    "Un final feliz.",
+    "幸福的结局。",
+    "Un lieto fine.",
+    "Une fin heureuse.",
+    "Счастливый конец."
+  ],
+  "You found it. Cooked it. Enjoyed it.": [
+    "Nahanap. Naluto. Nasarapan.",
+    "Lo encontraste. Lo cocinaste. Lo disfrutaste.",
+    "找到食材，做成美食，尽情享用。",
+    "Hai trovato, cucinato e gustato tutto.",
+    "Tu as trouvé, cuisiné et savouré.",
+    "Ты нашёл, приготовил и насладился."
+  ],
+  "ALL LEVELS COMPLETED": [
+    "TAPOS NA ANG LAHAT NG LEVEL",
+    "TODOS LOS NIVELES COMPLETADOS",
+    "全部关卡已完成",
+    "TUTTI I LIVELLI COMPLETATI",
+    "TOUS LES NIVEAUX TERMINÉS",
+    "ВСЕ УРОВНИ ПРОЙДЕНЫ"
+  ],
+  "Thank you for playing Catatoullie.": [
+    "Salamat sa paglalaro ng Catatoullie.",
+    "Gracias por jugar a Catatoullie.",
+    "感谢游玩 Catatoullie。",
+    "Grazie per aver giocato a Catatoullie.",
+    "Merci d’avoir joué à Catatoullie.",
+    "Спасибо за игру в Catatoullie."
+  ]
+}

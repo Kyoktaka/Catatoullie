@@ -2,8 +2,8 @@
 int wardrobeTab = 0;
 int activeOptionSlider = -1;
 int menuMuted = #BAC5BC;
-String[] wardrobeHatNames = {"No hat", "Straw hat", "Brown hat", "Chef hat"};
-String[] wardrobeAccessoryNames = {"No accessory", "Headphones", "Tag collar", "Eyewear"};
+String[] wardrobeHatNames = {"No hat", "Straw hat", "Brown hat", "Chef hat", "Top hat", "Cowboy hat", "Wizard hat", "Pirate hat", "Clown hat", "Party hat", "Tall chef hat", "Pink crown", "Winter beanie", "Sun hat", "Detective hat"};
+String[] wardrobeAccessoryNames = {"No accessory", "Headphones", "Tag collar", "Eyewear", "Polka dot bow", "Blue bow", "Yellow bow", "Bell collar", "Round glasses", "Yarn ball", "Satchel", "Red bandana", "Green bandana", "Anchor collar", "Sunglasses", "Striped scarf", "Fish collar", "Fishbone toy", "Toy mouse"};
 String[] wardrobeColorNames = {"Ginger", "Blue", "White", "Black", "Silver Vox"};
 
 void drawMenu() {
@@ -22,50 +22,48 @@ void drawMenu() {
 }
 
 void drawCustomize() {
-  pushStyle();
-  sceneBackground(bg, 150);
-  menuText("MAKE THIS CAT YOUR OWN", 640, 64, 32, CREAM, true);
-  menuText("A few good finds. A little personality.", 640, 103, 16, menuMuted, true);
-
-  menuTab("CATS", 30, 161, wardrobeTab == 0);
-  menuTab("MAPS", 30, 239, wardrobeTab == 1);
-  if (wardrobeTab == 0) {
-    menuPanel(220, 137, 612, 473);
-    menuText("HATS", 244, 169, 21, CREAM, false);
-    for (int i = 0; i < 5; i++) {
-      wardrobeSlot(i < 4 ? hats[i] : null, i < 4 ? wardrobeHatNames[i] : "Locked", 244+i*114, 193, i == selectedHat, i >= 4);
+  pushStyle();sceneBackground(bg,205);
+  title("CUSTOMIZATION",640,55,32,CREAM);
+  menuTab("CATS",30,161,wardrobeTab==0);menuTab("MAPS",30,239,wardrobeTab==1);
+  if(wardrobeTab==0){
+    menuPanel(220,137,612,473);
+    wardrobeCategoryButton("HATS",244,265,wardrobeCategory==0);
+    wardrobeCategoryButton("ACCESSORIES",527,281,wardrobeCategory==1);
+    PImage[] icons=wardrobeCategory==0?hats:accessoryImages;
+    String[] names=wardrobeCategory==0?wardrobeHatNames:wardrobeAccessoryNames;
+    boolean[] owned=wardrobeCategory==0?wardrobe.hats:wardrobe.accessories;
+    int selected=wardrobeCategory==0?selectedHat:selectedAccessory;
+    for(int slot=0;slot<8;slot++){
+      int index=wardrobePage*8+slot;if(index>=icons.length)break;
+      wardrobeCard(icons[index],names[index],242+(slot%4)*143,215+(slot/4)*142,index==selected,!owned[index]);
     }
-    menuText("ACCESSORIES", 244, 329, 21, CREAM, false);
-    for (int i = 0; i < 5; i++) {
-      wardrobeSlot(i < 4 ? accessoryImages[i] : null, i < 4 ? wardrobeAccessoryNames[i] : "Locked", 244+i*114, 353, i == selectedAccessory, i >= 4);
+    button("<",244,520,55,40,wardrobePage>0);
+    fittedLabel((wardrobePage+1)+" / "+ceil(icons.length/8.0),520,539,15,220,CREAM);
+    button(">",753,520,55,40,(wardrobePage+1)*8<icons.length);
+    fittedLabel("Complete a trash can or dish to unlock wardrobe rewards.",526,586,15,553,MUTED);
+    menuPanel(852,137,396,473);title("YOUR CAT",1050,173,21,CREAM);
+    catPreview(1050,490,230);rotationHint(1050,590);
+    int[] colors={color(226,140,49),color(79,115,162),color(240,235,215),color(65,66,77),color(169,182,185)};
+    for(int i=0;i<5;i++){
+      stroke(i==selectedCat?GOLD:color(92,100,111));strokeWeight(i==selectedCat?3:1);fill(colors[i]);rect(915+i*57,518,42,35,8);
     }
-    menuTextFit("Choose a hat and an accessory to dress your chef.", 246, 513, 17, menuMuted, false, 558);
-    menuTextFit("More wardrobe finds are coming in future levels.", 246, 550, 15, menuMuted, false, 558);
-
-    menuPanel(852, 137, 396, 490);
-    menuText("YOUR CAT", 1050, 170, 21, CREAM, true);
-    catPreview(1050, 497, 252);
-    rotationHint(1050, 600);
-    int[] colors = {color(226, 140, 49), color(79, 115, 162), color(240, 235, 215), color(65, 66, 77), color(169, 182, 185)};
-    for (int i = 0; i < 5; i++) {
-      float x = 915 + i*57;
-      stroke(i == selectedCat ? GOLD : color(92, 100, 111));
-      strokeWeight(i == selectedCat ? 4 : 1);
-      fill(colors[i]);
-      rect(x, 518, 42, 35, 4);
-      if (hit(x, 518, 42, 35)) {
-        noFill();
-        stroke(CREAM);
-        strokeWeight(1);
-        rect(x+4, 522, 34, 27, 2);
-      }
-    }
-    menuText(wardrobeColorNames[selectedCat], 1050, 565, 15, menuMuted, true);
-  } else {
-    drawWardrobeMaps();
-  }
-  assetButton(backBtn, "BACK TO MENU", 34, 646, 250, 47);
-  menuText("Your choices save automatically.", 1244, 671, 14, menuMuted, false, RIGHT);
+    fittedLabel(wardrobeColorNames[selectedCat],1050,565,14,320,CREAM);
+  }else drawWardrobeMaps();
+  assetButton(backBtn,"BACK TO MENU",34,646,250,47);
+  menuText("Your choices save automatically.",1244,671,14,menuMuted,false,RIGHT);popStyle();
+}
+void wardrobeCategoryButton(String name,float x,float w,boolean active){
+  pushStyle();stroke(active?GOLD:MUTED);fill(active?GOLD:0xff263638);rect(x,156,w,43,7);
+  fittedLabel(name,x+w/2,177,17,w-20,active?INK:CREAM);popStyle();
+}
+void wardrobeCard(PImage art,String name,float x,float y,boolean selected,boolean locked){
+  pushStyle();stroke(selected?GOLD:0xff455454);strokeWeight(selected?2:1);
+  fill(selected?0xff494536:0xff263638);rect(x,y,135,128,12);
+  if(locked)tint(255,85);containImage(art,x+30,y+10,75,70);noTint();
+  if(art==null){noFill();stroke(MUTED);ellipse(x+67,y+43,28,28);line(x+57,y+53,x+77,y+33);}
+  if(locked)containImage(lockImg,x+105,y+10,18,22);
+  fittedLabel(name,x+67,y+101,13,122,locked?MUTED:CREAM);
+  if(selected){noStroke();fill(GOLD);ellipse(x+120,y+114,5,5);}
   popStyle();
 }
 
@@ -74,7 +72,7 @@ void menuTab(String title, float x, float y, boolean selected) {
   strokeWeight(selected ? 2 : 1);
   fill(selected ? GOLD : color(29, 38, 47, 238));
   rect(x, y, 164, 60, 6);
-  menuText(title, x+111, y+30, 21, selected ? INK : CREAM, true);
+  menuTextFit(title, x+111, y+30, 18, selected ? INK : CREAM, true,92);
   float lift=hit(x,y,164,60)?-5:0;
   containImage(title.equals("CATS")?catsIcon:mapsIcon,x+9,y+7+lift,49,47);
 }
@@ -109,8 +107,8 @@ void drawWardrobeMaps() {
   menuPanel(220, 137, 1028, 473);
   menuText("YOUR NEIGHBORHOOD", 248, 172, 22, CREAM, false);
   float x = 249;
-  stroke(GOLD);
-  strokeWeight(2);
+  stroke(77,89,102);
+  strokeWeight(1);
   fill(25, 33, 41);
   rect(x, 210, 294, 289, 7);
   if (selectionBg != null) {
@@ -119,96 +117,91 @@ void drawWardrobeMaps() {
   }
   menuText("LEVEL 1", x+147, 425, 23, CREAM, true);
   menuText("The first shift", x+147, 456, 17, menuMuted, true);
-  menuText("AVAILABLE", x+147, 482, 13, GOLD, true);
+  drawLevelRating(0,x+147,482);
+  drawLevelBorder(0,x,210,294,289);
   for (int i = 0; i < 2; i++) {
     float tx = 575 + i*325;
     fill(25, 33, 41, 210);
     stroke(77, 89, 102);
     strokeWeight(1);
     rect(tx, 210, 294, 289, 7);
-    if (lockImg != null) menuFitImage(lockImg, tx+113, 266, 68, 78);
+    if(i==0&&level2Unlocked())containImage(kitchenImage("dish_spaghetti"),tx+63,250,170,120);
+    else if(i==1&&cooking.progressMask()==31){initMealAssets();containImage(mealFood[0],tx+63,250,170,120);}
+    else if (lockImg != null) menuFitImage(lockImg, tx+113, 266, 68, 78);
     menuText("LEVEL " + (i+2), tx+147, 425, 23, menuMuted, true);
-    menuText("Coming later", tx+147, 458, 17, menuMuted, true);
+    menuText(i==0?"Cooking Time":"Full Course Meal", tx+147, 458, 17, menuMuted, true);
+    drawLevelRating(i+1,tx+147,482);
+    drawLevelBorder(i+1,tx,210,294,289);
   }
-  menuTextFit("This demo takes you from the menu through all five ingredient collections in Level 1.", 250, 551, 17, menuMuted, false, 964);
 }
 
 void drawOptions() {
-  pushStyle();
-  sceneBackground(bg, 155);
-  menuText("OPTIONS", 640, 72, 34, CREAM, true);
-  menuText("Settle in for your shift.", 640, 110, 17, menuMuted, true);
-  menuPanel(268, 153, 744, 410);
-  optionSlider("MUSIC", "Background melody volume", 0, musicVolume, 226, round(musicVolume*100)+"%");
-  optionSlider("VFX", "Ambient effects intensity", 1, vfxAmount, 343, round(vfxAmount*100)+"%");
-  optionSlider("SENSITIVITY", "Paw pickup reach", 2, (sensitivity-.5)/1.5, 460, nf(sensitivity, 1, 1)+"x");
-  button("RESTORE DEFAULTS", 509, 583, 262, 47, true);
-  assetButton(backBtn, "BACK TO MENU", 34, 646, 250, 47);
-  menuText("Changes apply immediately and save automatically.", 640, 668, 15, menuMuted, true);
-  popStyle();
+  pushStyle();sceneBackground(bg,185);title("OPTIONS",640,55,34,0xffe8dcc7);
+  stroke(0xffb08b6e);strokeWeight(1.5);fill(0xffe8dcc7);rect(268,100,744,452,24);
+  fill(0xff606c38,5);noStroke();for(int i=0;i<180;i++)ellipse(282+(i*71)%715,114+(i*97)%425,2,2);
+  optionSlider("MUSIC","Background melody volume",0,musicVolume,optionSliderRows[0],round(musicVolume*100)+"%");
+  optionSlider("SOUND EFFECTS","Buttons, paws, and cooking sounds",3,sfxVolume,optionSliderRows[3],round(sfxVolume*100)+"%");
+  optionSlider("VFX","Ambient effects intensity",1,vfxAmount,optionSliderRows[1],round(vfxAmount*100)+"%");
+  optionSlider("SENSITIVITY","Paw pickup reach",2,(sensitivity-.5)/1.5,optionSliderRows[2],nf(sensitivity,1,1)+"x");
+  drawLanguageSelector();
+  button("RESTORE DEFAULTS",350,583,262,47,true);
+  button("RESET PROGRESS",640,583,290,47,true);
+  assetButton(backBtn,"BACK TO MENU",34,646,250,47);
+  fittedLabel("Changes apply immediately and save automatically.",784,670,14,700,MUTED);
+  drawLanguageDropdown();if(confirmProgressReset)drawResetConfirmation();popStyle();
 }
 
 void optionSlider(String title, String subtitle, int index, float value, float y, String amount) {
-  menuText(title, 303, y-11, 20, CREAM, false);
-  menuText(subtitle, 303, y+18, 13, menuMuted, false);
+  menuTextFit(title, 303, y-9, 20, 0xff606c38, false,280);
+  menuTextFit(subtitle, 303, y+15, 13, 0xff606c38, false,275);
   float start = 600;
   float end = 921;
-  stroke(84, 98, 112);
+  stroke(0xffb08b6e);
   strokeWeight(7);
   line(start, y, end, y);
-  stroke(GOLD);
+  stroke(0xff606c38);
   line(start, y, lerp(start, end, constrain(value, 0, 1)), y);
   noStroke();
-  fill(activeOptionSlider == index || hit(start-15, y-22, end-start+30, 44) ? CREAM : GOLD);
+  fill(activeOptionSlider == index || hit(start-15, y-22, end-start+30, 44) ? 0xff8b9d83 : 0xff606c38);
   ellipse(lerp(start, end, constrain(value, 0, 1)), y, 24, 24);
-  menuText(amount, 962, y, 15, CREAM, true);
+  menuText(amount, 962, y, 15, 0xff606c38, true);
 }
 
 void drawAchievements() {
-  pushStyle();
-  sceneBackground(bg, 155);
-  menuText("ACHIEVEMENTS", 640, 78, 34, CREAM, true);
-  int count = model.completedCount();
-  menuText(count + " / 5 trash cans searched in Level 1", 640, 119, 18, menuMuted, true);
-  achievementCard("FIRST FINDS", "Collect the ingredients from your first trash can.", min(count, 1), 1, 187);
-  achievementCard("NEIGHBORHOOD SCAVENGER", "Collect every ingredient set in Level 1.", count, 5, 325);
-  int quick=0; for(int rating:model.bestStars) if(rating==3) quick=1;
-  achievementCard("QUICK PAWS", "Earn three stars by finishing with 80 seconds left.", quick, 1, 463);
-  assetButton(backBtn, "BACK TO MENU", 34, 646, 250, 47);
-  menuText("Keep searching. Cooking comes in Level 2.", 640, 672, 15, menuMuted, true);
-  popStyle();
+  pushStyle();sceneBackground(bg,190);
+  title("ACHIEVEMENTS",640,65,34,CREAM);
+  int count=model.completedCount(),quick=0;
+  for(int rating:model.bestStars)if(rating==3)quick=1;
+  achievementCard("FIRST FINDS","Collect the ingredients from your first trash can.",min(count,1),1,100,145);
+  achievementCard("NEIGHBORHOOD SCAVENGER","Collect every ingredient set in Level 1.",count,5,660,145);
+  achievementCard("QUICK PAWS","Earn three stars by finishing with 80 seconds left.",quick,1,100,370);
+  int dishes=Integer.bitCount(cooking.progressMask());
+  achievementCard("Cooking Time","Complete five dishes. Follow each recipe in order.",dishes,5,660,370);
+  assetButton(backBtn,"BACK TO MENU",34,646,250,47);popStyle();
 }
-
-void achievementCard(String title, String description, int progress, int target, float y) {
-  boolean unlocked = progress >= target;
-  menuPanel(250, y, 780, 114);
-  noStroke();
-  fill(unlocked ? GOLD : color(68, 80, 91));
-  ellipse(305, y+56, 61, 61);
-  if (unlocked) {
-    stroke(INK);
-    strokeWeight(4);
-    line(292, y+56, 302, y+66);
-    line(302, y+66, 320, y+44);
-  } else if (lockImg != null) {
-    menuFitImage(lockImg, 290, y+36, 30, 38);
-  }
-  menuText(title, 358, y+30, 22, unlocked ? GOLD : CREAM, false);
-  menuTextFit(description, 358, y+63, 15, menuMuted, false, 626);
-  menuText(unlocked ? "EARNED" : progress+" / "+target, 984, y+31, 14, unlocked ? GOLD : menuMuted, false, RIGHT);
-  noStroke();
-  fill(68, 80, 91);
-  rect(358, y+87, 626, 5, 2);
-  fill(GOLD);
-  float progressWidth = 626 * constrain((float)progress/target, 0, 1);
-  if (progressWidth > 0) rect(358, y+87, progressWidth, 5, 2);
+void achievementCard(String name,String description,int progress,int target,float x,float y){
+  boolean earned=progress>=target;
+  pushStyle();noStroke();fill(0xffe8dcc7);rect(x,y,520,193,24);
+  fill(earned?0xff606c38:0xffb08b6e);ellipse(x+45,y+46,46,46);
+  if(earned){stroke(0xffe8dcc7);strokeWeight(3);line(x+34,y+45,x+42,y+53);line(x+42,y+53,x+58,y+37);}
+  else containImage(lockImg,x+33,y+30,24,31);
+  textFont(paperFonts[language]);fittedLabel(name,x+294,y+40,22,408,0xff606c38);
+  fittedLabel(description,x+260,y+91,16,472,0xff606c38);
+  fittedLabel(earned?"EARNED":progress+" / "+target,x+260,y+134,15,450,0xff606c38);
+  noStroke();fill(0xffb08b6e);rect(x+25,y+163,470,8,4);
+  fill(0xff606c38);if(progress>0)rect(x+25,y+163,470*constrain(progress/(float)target,0,1),8,4);popStyle();
 }
 
 boolean menuMousePressed() {
+  if(screen==OPTIONS&&confirmProgressReset){
+    if(hit(400,408,220,46))confirmProgressReset=false;
+    else if(hit(660,408,220,46)){resetLevelProgress();confirmProgressReset=false;}
+    return true;
+  }
   if(beginAvatarDrag())return true;
   if (screen == MENU) {
-    if (hit(970, 435, 260, 61)) { playUiSound(); startCutscene(); return true; }
-    if (hit(970, 519, 260, 61)) { playUiSound(); screen = OPTIONS; return true; }
+    if (hit(970, 435, 260, 61)) { playUiSound(); startCutscene(WORLD_SELECT); return true; }
+    if (hit(970, 519, 260, 61)) { playUiSound(); screen = OPTIONS; languageDropdownOpen=false; return true; }
     if (hit(970, 603, 260, 61)) { saveProgress(); exit(); return true; }
     if (hit(44, 636, 290, 51)) { playUiSound(); screen = CUSTOMIZE; return true; }
     if ((hit(900, 29, 266, 51)||hit(1182,18,65,65))) { playUiSound(); screen = ACHIEVEMENTS; return true; }
@@ -219,29 +212,43 @@ boolean menuMousePressed() {
       playUiSound(); saveProgress(); goMenu(); return true;
     }
   }
-  if (screen == CUSTOMIZE) {
-    if (hit(30, 161, 164, 60)) { wardrobeTab = 0; playUiSound(); return true; }
-    if (hit(30, 239, 164, 60)) { wardrobeTab = 1; playUiSound(); return true; }
-    if (wardrobeTab == 0) {
-      for(int i=0;i<5;i++) if(hit(915+i*57,518,42,35)){selectedCat=i;playUiSound();saveProgress();return true;}
-      for (int i = 0; i < 4; i++) {
-        if (hit(244+i*114, 193, 100, 101)) { selectedHat = i; playUiSound(); saveProgress(); return true; }
-        if (hit(244+i*114, 353, 100, 101)) { selectedAccessory = i; playUiSound(); saveProgress(); return true; }
+  if(screen==CUSTOMIZE){
+    if(wardrobeTab==1&&hit(900,210,294,289)&&cooking.progressMask()==31){startEndingMovie(2);return true;}
+    if(wardrobeTab==1&&hit(249,210,294,289)){startCutscene();return true;}
+    if(wardrobeTab==1&&hit(575,210,294,289)&&level2Unlocked()){startEndingMovie(1);return true;}
+    if(hit(30,161,164,60)){wardrobeTab=0;playUiSound();return true;}
+    if(hit(30,239,164,60)){wardrobeTab=1;playUiSound();return true;}
+    if(wardrobeTab==0){
+      for(int i=0;i<5;i++)if(hit(915+i*57,518,42,35)){selectedCat=i;playUiSound();saveProgress();return true;}
+      if(hit(244,156,265,43)){wardrobeCategory=0;wardrobePage=0;return true;}
+      if(hit(527,156,281,43)){wardrobeCategory=1;wardrobePage=0;return true;}
+      int count=wardrobeCategory==0?hats.length:accessoryImages.length;
+      if(hit(244,520,55,40)){wardrobePage=max(0,wardrobePage-1);return true;}
+      if(hit(753,520,55,40)){wardrobePage=min((count-1)/8,wardrobePage+1);return true;}
+      for(int slot=0;slot<8;slot++)if(hit(242+(slot%4)*143,215+(slot/4)*142,135,128)){
+        int index=wardrobePage*8+slot;if(index>=count)return true;
+        boolean owned=wardrobeCategory==0?wardrobe.hats[index]:wardrobe.accessories[index];
+        if(!owned){notifyPlayer("Complete a trash can or dish to unlock wardrobe rewards.");return true;}
+        if(wardrobeCategory==0)selectedHat=index;else selectedAccessory=index;
+        burst(mouseX,mouseY,12,GOLD);playUiSound();saveProgress();return true;
       }
     }
   }
   if (screen == OPTIONS) {
-    for (int i = 0; i < 3; i++) {
-      if (hit(585, 204+i*117, 351, 44)) {
+    if(optionsLanguageMouse())return true;
+    for (int i = 0; i < 4; i++) {
+      if (hit(585, optionSliderRows[i]-22, 351, 44)) {
         activeOptionSlider = i;
         updateOptionSlider();
         return true;
       }
     }
-    if (hit(509, 583, 262, 47)) {
-      musicVolume = .35;
+    if(hit(640,583,290,47)){confirmProgressReset=true;return true;}
+    if (hit(350, 583, 262, 47)) {
+      musicVolume = .35;sfxVolume=.7;
       vfxAmount = .7;
       sensitivity = 1;
+      setLanguage(0,false);resetIntroLanguage();
       playUiSound();
       saveProgress();
       return true;
@@ -268,6 +275,7 @@ void updateOptionSlider() {
   if (activeOptionSlider == 0) musicVolume = value;
   else if (activeOptionSlider == 1) vfxAmount = value;
   else if (activeOptionSlider == 2) sensitivity = .5 + 1.5*value;
+  else if (activeOptionSlider == 3){sfxVolume=value;if(gentleAudio!=null)gentleAudio.effectsGain=value;playUiSound();}
 }
 
 void menuText(String value, float x, float y, float fontSize, int ink, boolean centered) {
@@ -278,12 +286,12 @@ void menuText(String value, float x, float y, float fontSize, int ink, boolean c
   fill(ink);
   textAlign(centered ? CENTER : alignment, CENTER);
   textSize(fontSize);
-  text(value, x, y);
+  text(tr(value), x, y);
 }
 
 void menuTextFit(String value, float x, float y, float fontSize, int ink, boolean centered, float maxWidth) {
   textSize(fontSize);
-  float measured = textWidth(value);
+  float measured = textWidth(tr(value));
   float fitted = measured > maxWidth ? fontSize*maxWidth/measured : fontSize;
   menuText(value, x, y, fitted, ink, centered);
 }
@@ -299,7 +307,7 @@ void menuPill(String title, float x, float y, float w, float h) {
   noStroke();
   fill(INK, 210);
   rect(x, y, w, h, 4);
-  menuText(title, x+w/2, y+h/2, 13, CREAM, true);
+  fittedLabel(title,x+w/2,y+h/2,13,w-20,CREAM);
 }
 
 void menuFitImage(PImage icon, float x, float y, float w, float h) {

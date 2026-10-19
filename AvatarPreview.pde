@@ -18,7 +18,7 @@ void advanceAvatarRotation(float deltaMs){
   catAngle=avatarView(round(avatarTargetYaw));
 }
 boolean beginAvatarDrag(){
-  boolean over=screen==MENU?hit(60,190,254,383):screen==CUSTOMIZE&&wardrobeTab==0&&hit(897,192,306,313);
+  boolean over=screen==MENU?hit(60,190,254,383):screen==CUSTOMIZE&&wardrobeTab==0&&hit(875,190,330,315);
   if(!over)return false;
   avatarDragging=true;avatarLastMouseX=mouseX;return true;
 }
@@ -51,22 +51,22 @@ void drawAvatarPose(int view,float cx,float bottom,float h,float opacity,float s
   image(cat,crop[0],crop[1],cat.width,cat.height);
   if(selectedAccessory==1&&view==0){
     PImage acc=accessoryImages[1];
-    if(acc!=null)image(acc,376-300,220,600,380);
+    if(acc!=null)image(acc,376-280,205,560,365);
   }
   if(selectedHat>0){
     PImage hat=hats[selectedHat];boolean side=view==1||view==3;
     float headX=view==1?420:view==3?360:view==2?388:376;
-    float hw=selectedHat==3?(side?290:355):selectedHat==1?(side?360:470):(side?370:510);
-    float brimY=side?260:278;
-    if(hat!=null){float hh=hw*hat.height/(float)hat.width;image(hat,headX-hw/2,brimY-hh*(selectedHat==3?.85:.9),hw,hh);}
+    float hw=hatWidths[selectedHat]*(side?.76:1);
+    float brimY=side?290:305;
+    if(hat!=null){float hh=hw*hat.height/(float)hat.width;image(hat,headX-hw/2,brimY-hh*hatBrims[selectedHat],hw,hh);}
   }
   // Only front artwork is available for these accessories. Do not paste a
   // forward-facing collar, ear cups or glasses onto the side/back of the cat.
   if(selectedAccessory==2&&view==0){
     PImage acc=accessoryImages[2];
     if(acc!=null){
-      pushMatrix();translate(376,670);rotate(.4);
-      float aw=300,ah=aw*acc.height/(float)acc.width;image(acc,-aw*.5,-ah*.33,aw,ah);popMatrix();
+      pushMatrix();translate(376,608);rotate(.4);
+      float aw=290,ah=aw*acc.height/(float)acc.width;image(acc,-aw*.5,0,aw,ah*.62,0,round(acc.height*.38),acc.width,acc.height);popMatrix();
     }
   }else if(selectedAccessory==3&&view==0){
     PImage acc=accessoryImages[3];
@@ -75,5 +75,6 @@ void drawAvatarPose(int view,float cx,float bottom,float h,float opacity,float s
       float aw=520,ah=aw*acc.height/(float)acc.width;image(acc,-aw*.60,-ah*.46,aw,ah);popMatrix();
     }
   }
+  drawNewAccessory(selectedAccessory,view);
   popMatrix();popStyle();
 }

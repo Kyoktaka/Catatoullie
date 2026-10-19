@@ -8,7 +8,7 @@ import java.util.Stack;
 public class GameModel {
   public static final int AVAILABLE=0, COLLECTED=1, SET_ASIDE=2, STAGED=3;
   public static final int LIMIT_MS=120000;
-  public static final String[] MISSION_NAMES={"A SPAG MEAL","FRIED CHICKEN","LOMPIA","PEACH MANGO PIE","BURGIS"};
+  public static final String[] MISSION_NAMES={"Spaghetti Recipe","Fried-Chicken Recipe","Lompia Recipe","Peach Mango Pie Recipe","Burger Recipe"};
   public static final String[][] RECIPES={
     {"Pasta","Meatballs","Hot Dogs","Tomato Can","Milk","Onion","Garlic","Oil","Cheese"},
     {"Chicken","Buttermilk","All-Purpose Flour","Cornstarch","Salt","Garlic Powder","Pepper","Oil"},

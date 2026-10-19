@@ -49,8 +49,13 @@ $modelSource = Join-Path $projectRoot 'GameModel.java'
 $testSource = Join-Path $projectRoot 'tests\GameModelTest.java'
 
 Write-Host "Compiling model tests with $javacPath"
-& $javacPath --release 17 -encoding UTF-8 -d $buildDirectory $modelSource $testSource
+& $javacPath --release 17 -encoding UTF-8 -d $buildDirectory $modelSource (Join-Path $projectRoot 'WardrobeInventory.java') (Join-Path $projectRoot 'CookingModel.java') (Join-Path $projectRoot 'PreparedLayout.java') (Join-Path $projectRoot 'CookingRecipes.java') $testSource (Join-Path $projectRoot 'tests\CookingModelTest.java') (Join-Path $projectRoot 'MealModel.java') (Join-Path $projectRoot 'tests\MealModelTest.java')
 if ($LASTEXITCODE -ne 0) { throw "Model compilation failed (exit $LASTEXITCODE)." }
 
 & $javaPath -cp $buildDirectory GameModelTest
 if ($LASTEXITCODE -ne 0) { throw "Model tests failed (exit $LASTEXITCODE)." }
+& $javaPath -cp $buildDirectory CookingModelTest
+if ($LASTEXITCODE -ne 0) { throw "Cooking model tests failed (exit $LASTEXITCODE)." }
+
+& $javaPath -cp $buildDirectory MealModelTest
+if ($LASTEXITCODE -ne 0) { throw "Meal model tests failed (exit $LASTEXITCODE)." }

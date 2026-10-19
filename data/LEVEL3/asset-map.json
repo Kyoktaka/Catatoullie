@@ -1,0 +1,24 @@
+{
+  "background": "eating-bg.png",
+  "taskButton": "buttons/Paper-task-list-button.png",
+  "startButton": "buttons/Game-button.png",
+  "quest": "level-info.png",
+  "checklist": "paper-list.png",
+  "wrongPlacement": "wrong-stack-order-banner.png",
+  "wrongEating": "top-plate-first-banner.png",
+  "catWaiting": "drool-cat.png",
+  "catReaction": "eating-cat.png",
+  "catEnding": "fat-cat.png",
+  "heartStates": {
+    "3": "hearts/PLAY (Animated) (2).png",
+    "2": "hearts/PLAY (Animated) (3).png",
+    "1": "hearts/PLAY (Animated) (4).png"
+  },
+  "dishes": {
+    "BURGER": "cooked-food/cooked-burger.png",
+    "PIE": "cooked-food/cooked-peach-mango-pie.png",
+    "LUMPIA": "cooked-food/Lompia.png",
+    "CHICKEN": "cooked-food/Fried Tsiken.png",
+    "SPAGHETTI": "cooked-food/cooked-spaghetti.png"
+  }
+}
